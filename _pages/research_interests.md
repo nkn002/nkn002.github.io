@@ -7,8 +7,8 @@ redirect_from:
   - /research_interests/
 ---
 
-#### Multilingual and Multimodal MLP
+### Multilingual and Multimodal MLP
 
-#### Interpretability
+### Interpretability
 
-#### Other
+### Other
