@@ -11,5 +11,3 @@ citation: 'Nguyen, K., Tang, Z., Mali, A., & Kelly, A. (2022). &quot;Like a bili
 
 
 [Download paper here](https://arxiv.org/abs/2210.05487)
-
-Recommended citation: Nguyen, K., Tang, Z., Mali, A., & Kelly, A. (2022). "Like a bilingual baby: The advantage of visually grounding a bilingual language model" <i>arXiv</i>
