@@ -1,11 +1,8 @@
 ---
-permalink: /research_interests
-title: "My research journey"
-excerpt: ""
+layout: archive
+title: "CV"
+permalink: /cv/
 author_profile: true
-redirect_from: 
-  - /research_interests/
-  - /research_interests.html
+redirect_from:
+  - /resume
 ---
-
-Hello
