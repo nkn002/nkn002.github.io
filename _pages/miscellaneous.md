@@ -13,4 +13,4 @@ I am originally from Ho Chi Minh City, Vietnam. Here in the States, I go by Nguy
 
 Hobbies
 ===
-I like puns (evidently), cooking, and playing sports (especially badminton and table tennis).
+I like puns (evidently), cooking, and playing sports (especially badminton and table tennis). I enjoy reading - be it comics or novels. In fact, reading was what introduced me to machine translation as sometimes of my favorite novels are neither in Vietnamese nor English. A couple of years ago, the machine translated texts were still of low-quality, but now their quality has drastically improved to the point where I can make sense of them with relative ease.
