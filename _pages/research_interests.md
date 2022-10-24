@@ -13,5 +13,5 @@ My experiences with multimodal multilingual language models came from my researc
 ### Interpretability
 My experiences with mixed integer linear programming (MILP) came from my research with Professor Thiago Serra at Bucknell University. For our research, I developed several MILP programs using constraints to simulate the inner-working of the perceptrons, through which I was able to detect their stably active and stably inactive neurons as well as counting their number of linear regions. I hope to extend this method to current language models to better understand how they behave.
 
-### Others
-To be added
+### BERTology
+I have been tinkering with BERT and models deriving from BERT, particularly focusing on the summarization ability of BERT's attention layers. I am also keen on exploring new BERT-based architectures, and much of my Kaggle projects have been about me trying out transformer models on HuggingFace (RoBERTa, BERT, BigBird, Longformers, etc).  
