@@ -6,7 +6,6 @@ excerpt: 'We tested our hypothesis that visually grounded information assists th
 date: 2022-10-23
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2210.05487'
-citation: 'Nguyen, K., Tang, Z., Mali, A., & Kelly, A. (2022). &quot;Like a bilingual baby: The advantage of visually grounding a bilingual language model &quot; <i>arXiv</i>'
 ---
 
 
