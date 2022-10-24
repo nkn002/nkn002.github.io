@@ -18,12 +18,12 @@ I am originally from Ho Chi Minh City, Vietnam. Here in the States, I go by Nguy
 
 Publications
 ===
-**Getting away with more network pruning: From sparsity to geometry and linear regions**
-Junyang Cai, **Khai-Nguyen Nguyen**, Aidan Good, Nishant Shrestha, Ruisen Tu, Xin Yu, Thiago Serra 
+**Getting away with more network pruning: From sparsity to geometry and linear regions** <br>
+Junyang Cai, **Khai-Nguyen Nguyen**, Aidan Good, Nishant Shrestha, Ruisen Tu, Xin Yu, Thiago Serra <br>
 _Submitted to the International Conference on Learning Representations (ICLR) 2023_
 
-**Like a bilingual baby: The advantage of visually grounding a bilingual language model** 
-**Khai-Nguyen Nguyen**, Zixin Tang, Ankur Mali, M Alex Kelly
+**Like a bilingual baby: The advantage of visually grounding a bilingual language model** <br>
+**Khai-Nguyen Nguyen**, Zixin Tang, Ankur Mali, M Alex Kelly<br>
 _In arxiv 2022_
 
 
