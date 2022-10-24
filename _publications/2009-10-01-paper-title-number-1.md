@@ -3,7 +3,7 @@ title: "Like a bilingual baby: The advantage of visually grounding a bilingual l
 collection: publications
 permalink: /publication/like_a_baby
 excerpt: ''
-date: 2022
+date: 2022-10-23
 venue: 'arxiv 2022'
 paperurl: 'https://arxiv.org/abs/2210.05487'
 citation: 'Nguyen, K., Tang, Z., Mali, A., & Kelly, A. (2022). &quot;Like a bilingual baby: The advantage of visually grounding a bilingual language model &quot; <i>arXiv</i>. 1(1).'
