@@ -4,8 +4,4 @@ collection: publications
 excerpt: 'We tested the hypothesis that visually grounded information assists the natural language learning process in a bilingual context by proposing the MM-LSTM, the Multimodal Multilingual LSTM model, and comparing its performance with a Monomodal Multilingual LSTM.'
 date: 2022-10-23
 venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2210.05487'
 ---
-
-
-[Download paper here](https://arxiv.org/abs/2210.05487)
