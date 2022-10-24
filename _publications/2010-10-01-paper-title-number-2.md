@@ -1,7 +1,4 @@
----
-title: "Getting away with more network pruning: From sparsity to geometry and linear regions"
-collection: publications
-excerpt: 'We proposed a novel pruning method for CNN and feedforward models motivated by a new theorem on a lower upper-bound of the number of linear regions of said models'
-date: 2022-10-23
-venue: 'Submitted to ICLR 2023'
----
+Like a bilingual baby: The advantage of visually grounding a bilingual language model 
+===
+**Khai-Nguyen Nguyen**, Zixin Tang, Ankur Mali, M Alex Kelly
+_In arxiv 2022_
