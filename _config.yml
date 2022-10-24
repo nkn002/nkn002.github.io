@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Khai-Nguyen Nguyen"
 title_separator          : "-"
 name                     : &name "Khai-Nguyen Nguyen"
-description              : &description "Hello! I am Khải Nguyên , a CS senior at Bucknell University. I am interested in natural language processing and applications of linear programming in deep learning"
+description              : &description "Khải Nguyên [kʰaːj ŋwiəŋ]"
 url                      : https://nkn002.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nkn002/nkn002.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Khai-Nguyen Nguyen"
   avatar           : "my_face.jpeg"
-  bio              : "As of current, my research has been on Natural Language Processing and applications of Linear Programming in deep learning. I am particularly interested in learning the role of multimodality in language learning, multilingual NLP, and methods of interpretion current language models."
+  bio              : "Khải Nguyên [kʰaːj ŋwiəŋ]"
   location         : "Location"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
