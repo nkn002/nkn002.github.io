@@ -17,8 +17,8 @@ main:
 #   - title: "Blog Posts"
 #     url: /year-archive/
     
-  - title: "My research"
-    url: /my_research/
+  - title: "Research interests"
+    url: /research_interests/
     
 #   - title: "Guide"
 #     url: /markdown/
