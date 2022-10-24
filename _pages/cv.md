@@ -1,11 +1,11 @@
 ---
-permalink: /my_research
+permalink: /research_interests
 title: "My research journey"
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /my_research/
-  - /my_research.html
+  - /research_interests/
+  - /research_interests.html
 ---
 
 Hello
