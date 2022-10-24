@@ -10,7 +10,7 @@ redirect_from:
 
 I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylvania. I am have done research in multilingual + multimodal NLP and the intersection between deep learning and linear programming. I am particularly interested in methods of improving existing models' (1) language understanding and (2) interpretability. My research goal is to allow for human-like behaviors in language models, such as reasoning and code-switching.
 
-Please feel free to contact me via email (nkn002@bucknell.edu).
+You can view my CV [here](https://drive.google.com/file/d/15IccTUqdHDuZDciQJfTjzLzsB86SarrH/view?usp=sharing). Please feel free to contact me via email!
 
 <!-- About me
 ===
