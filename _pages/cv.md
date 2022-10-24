@@ -7,3 +7,5 @@ redirect_from:
   - /my_research/
   - /my_research.html
 ---
+
+Hello
