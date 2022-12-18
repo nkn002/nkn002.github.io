@@ -22,7 +22,7 @@ Publications
 **Getting away with more network pruning: From sparsity to geometry and linear regions** <br>
 Jeffrey Cai*, **Khai-Nguyen Nguyen***, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
 Submitted to the International Conference on the Integration of Constraint Programming, Artificial Intelligence,
-and Operations Research (CPAIOR) 2023
+and Operations Research (CPAIOR) 2023 <br>
 Note: * denotes equal contribution
 
 **Like a bilingual baby: The advantage of visually grounding a bilingual language model** <br>
