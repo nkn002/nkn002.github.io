@@ -10,7 +10,7 @@ redirect_from:
 
 I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylvania. I have done research in multilingual + multimodal NLP, long-document processing, and the intersection between deep learning and linear programming. I am particularly interested in methods of improving existing models' learning to reach human-level language understanding. To this end, I believe in the importance of **interpretability and explainability** and **multimodal representation learning**.
 
-You can view my CV [here](https://drive.google.com/file/d/15IccTUqdHDuZDciQJfTjzLzsB86SarrH/view?usp=sharing). Please feel free to contact me via email!
+You can view my CV [here](https://drive.google.com/file/d/1_JP0uLViGp4pLtpqtSFBK8w2Ozj1iiRX/view?usp=sharing). Please feel free to contact me via email!
 
 <!-- About me
 ===
