@@ -29,8 +29,7 @@ Note: * denotes equal contribution
 **Khai-Nguyen Nguyen**, Zixin Tang, Ankur Mali, M Alex Kelly<br>
 _In arxiv 2022_
 
-**Important and Difficult Topics in CS2: An Expert Consensus via Delphi Study
-** <br>
+**Important and Difficult Topics in CS2: An Expert Consensus via Delphi Study** <br>
 Lea Wittie, Anastasia Kurdia, Meriel Huggard, **Khai-Nguyen Nguyen** <br>
 Submitted to the ASEE Annual Conference and Exposition 2023
 
