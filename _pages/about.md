@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylvania. I am particularly interested in methods of improving existing models' learning to reach human-level language understanding. To this end, I hope to do research on the **interpretability and explainability** and **representation learning** of NLP models.
 
-I am fortunate to be advised by Professor Alex Kelly (Carleton University) and Professor Thiago Serra (Bucknell University) in my previous research
+I am fortunate to be advised by Professor Alex Kelly (Carleton University) and Professor Thiago Serra (Bucknell University) in my previous research.
 
 
 My work
