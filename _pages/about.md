@@ -34,8 +34,7 @@ I am originally from Ho Chi Minh City, Vietnam. Here in the States, I go by Nguy
 
 Papers
 ====
-<font size="11">
-**Getting away with more network pruning: From sparsity to geometry and linear regions** <br>
+<font size="11">**Getting away with more network pruning: From sparsity to geometry and linear regions** <br>
 Jeffrey Cai*, **Khai-Nguyen Nguyen***, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
 _Submitted to the International Conference on the Integration of Constraint Programming, Artificial Intelligence,
 and Operations Research (CPAIOR) 2023_ <br>
@@ -47,7 +46,6 @@ _In arxiv 2022_
 
 **Important and Difficult Topics in CS2: An Expert Consensus via Delphi Study** <br>
 Lea Wittie, Anastasia Kurdia, Meriel Huggard, **Khai-Nguyen Nguyen** <br>
-_Submitted to the ASEE Annual Conference and Exposition 2023_
-</font>
+_Submitted to the ASEE Annual Conference and Exposition 2023_</font>
 
 
