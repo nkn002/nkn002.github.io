@@ -36,7 +36,7 @@ Papers
 ====
 **Getting away with more network pruning: From sparsity to geometry and linear regions** <br>
 Jeffrey Cai, **Khai-Nguyen Nguyen**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
-Accepted to CPAIOR 2023_ <br>
+_Accepted to CPAIOR 2023_ <br>
 **Note:** co-first authored
 
 **Like a bilingual baby: The advantage of visually grounding a bilingual language model** <br>
