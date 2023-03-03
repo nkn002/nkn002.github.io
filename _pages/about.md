@@ -18,8 +18,6 @@ What does it mean for a model to achieve human-level language understanding, and
 
 Towards the answer to the first question, I believe that the study interpretability and explainability is of great importance. Many models are said to perform certain tasks at the same level as humans, if not better. However, what attributed to their success? What is the rationale behind their outputs? How do they understand text and if there are noises, do they still perform as well as before? If we are able to answer these questions, we are one step closer to understand the capabilities of the state-of-the-arts, and subsequently could work toward improving them. My related experience on this topic mainly deals with feedforward networks, but I am exploring ways to extending the methods I developed with Professor Serra's lab to the transformer architecture.
 
-Though many have criticized Deep Learning and specifically NLP as black boxes, I am motivated by Professor David Bau's thoughts on his [AMA](https://www.reddit.com/r/IAmA/comments/r5vte5/i_am_david_bau_and_i_study_the_structure_of_the/) on Reddit. Particularly, I believe that _there may be a ripe research opportunity inside that [messy, unwieldy black box]_.
-
 
 CS education
 ===
@@ -38,12 +36,12 @@ Papers
 ====
 **Getting away with more network pruning: From sparsity to geometry and linear regions** <br>
 Jeffrey Cai, **Khai-Nguyen Nguyen**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
-_Submitted to the International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR) 2023_ <br>
+Accepted to CPAIOR 2023_ <br>
 **Note:** co-first authored
 
 **Like a bilingual baby: The advantage of visually grounding a bilingual language model** <br>
 **Khai-Nguyen Nguyen**, Zixin Tang, Ankur Mali, M Alex Kelly<br>
-_In arxiv 2022_
+_Submitted to CogSci 2023_
 
 **Important and Difficult Topics in CS2: An Expert Consensus via Delphi Study** <br>
 Lea Wittie, Anastasia Kurdia, Meriel Huggard, **Khai-Nguyen Nguyen** <br>
