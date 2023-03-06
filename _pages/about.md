@@ -31,12 +31,12 @@ You can view my CV [here](https://drive.google.com/file/d/1_JP0uLViGp4pLtpqtSFBK
 Updates
 ===
 
-**March** <br>
+**March, 2023** <br>
 Our Getting away paper was accepted to ICLR SNN 2023!
 
-**Feb** <br>
+**Feb, 2023** <br>
 Our Getting away paper was accepted to CPAIOR 2023! <br>
-Our Like a bilingual baby is now under submission to CogSci 2023
+Our Like a bilingual baby paper is now under submission to CogSci 2023
 
 
 
