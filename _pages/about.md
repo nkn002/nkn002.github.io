@@ -28,9 +28,17 @@ Contact
 ===
 You can view my CV [here](https://drive.google.com/file/d/1_JP0uLViGp4pLtpqtSFBK8w2Ozj1iiRX/view?usp=sharing). Please feel free to contact me via email (nkn002@bucknell.edu)!
 
-<!-- About me
+Updates
 ===
-I am originally from Ho Chi Minh City, Vietnam. Here in the States, I go by Nguyen Nguyen, but in Vietnamese, my name is Khải Nguyên [kʰaːj ŋwiəŋ]. As Vietnamese is a tonal and isolating language, many people in the States have found it difficult to pronounce my name. As such, I have enjoyed hearing many variations of my name, such as win, wind, or en-win. Nevertheless, my favorites have been win-win, which is the main motivation for my English name, and Winnie-the-Pooh. Since language changes with time, I believe there is no absolute "correct" way to pronounce any word, so please feel free to call me whatever you want - as long as it makes sense. -->
+
+**March** <br>
+Our Getting away paper was accepted to ICLR SNN 2023!
+
+**Feb** <br>
+Our Getting away paper was accepted to CPAIOR 2023! <br>
+Our Like a bilingual baby is now under submission to CogSci 2023
+
+
 
 Papers
 ====
