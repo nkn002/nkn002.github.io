@@ -11,20 +11,20 @@ I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylva
 
 Publications
 =====
-***:spades: denotes equal contribution***
+***♠ denotes equal contribution***
 
 **Real-time Speech Summarization for Medical Conversations** <br>
-Khai Le-Duc<sup>:spades:</sup>, **Khai-Nguyen Nguyen<sup>:spades:</sup>**, L Vo-Dang, TS Hy<br>
+Khai Le-Duc<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, L Vo-Dang, TS Hy<br>
 _Interspeech 2024_<br>
 [Paper](https://arxiv.org/pdf/2406.15888)
 
 **Getting away with more network pruning: From sparsity to geometry and linear regions** <br> 
-Jeffrey Cai<sup>:spades:</sup>, **Khai-Nguyen Nguyen<sup>:spades:</sup>**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
+Jeffrey Cai<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
 _Workshop on Sparsity in Neural Networks, ICLR 2023_ <br>
 [Paper](https://arxiv.org/pdf/2301.07966)
 
 **Sentiment Reasoning for Healthcare** <br>
-Khai Le-Duc<sup>:spades:</sup>, **Khai-Nguyen Nguyen<sup>:spades:</sup>**, Bach Phan Tat, Duy Le, Jerry Ngo, Long Vo-Dang, Anh Totti Nguyen, Truong-Son Hy <br>
+Khai Le-Duc<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, Bach Phan Tat, Duy Le, Jerry Ngo, Long Vo-Dang, Anh Totti Nguyen, Truong-Son Hy <br>
 _Submitted to EMNLP 2024_<br>
 [Paper](https://arxiv.org/pdf/2407.21054)
 
