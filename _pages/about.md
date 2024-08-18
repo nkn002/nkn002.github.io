@@ -7,13 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylvania. I am particularly interested in methods of improving existing models' learning to reach human-level language understanding. To this end, I hope to do research on the **interpretability and explainability** and **representation learning** of NLP models.
-
-I am fortunate to be advised by Professor Alex Kelly (Carleton University) and Professor Thiago Serra (Bucknell University) in my previous research.
-
-
-My work
-===
 <style>
 body {
     font-family: "Helvetica Neue", Arial, sans-serif;
@@ -42,6 +35,12 @@ a:hover {
 }
 </style>
 
+I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylvania. I am particularly interested in methods of improving existing models' learning to reach human-level language understanding.
+
+My work
+===
+
+
 # Human-Level Language Understanding in Models
 
 What does it mean for a model to achieve human-level language understanding, and how do we get there? While the first part of the question is more philosophical, I believe one direction toward the answer to the second part lies in **adopting elements from human language learning** into models.
@@ -58,35 +57,36 @@ CS education
 I am also interested in work on activities related to education in CS. I have been a teaching assistant for CS2: Data Structures and Algorithms for Bucknell's CS Department for two semesters, which I really enjoyed. I also did research on the identifying which topics are important in CS2 and which are difficult. I hope to be a TA in my graduate studies.
 
 
-Contact
-===
-You can view my CV [here](https://drive.google.com/file/d/1_JP0uLViGp4pLtpqtSFBK8w2Ozj1iiRX/view?usp=sharing). Please feel free to contact me via email (nkn002@bucknell.edu)!
-
-Updates
-===
-
-**March, 2023** <br>
-Our Getting away paper was accepted to ICLR SNN 2023!
-
-**Feb, 2023** <br>
-Our Getting away paper was accepted to CPAIOR 2023! <br>
-Our Like a bilingual baby paper is now under submission to CogSci 2023
-
-
 
 Papers
 ====
-**Getting away with more network pruning: From sparsity to geometry and linear regions** <br>
-Jeffrey Cai, **Khai-Nguyen Nguyen**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
-_Accepted to CPAIOR 2023_ <br>
-**Note:** co-first authored
+
+Publications
+=====
+**Getting away with more network pruning: From sparsity to geometry and linear regions** <br> 
+Jeffrey Cai, **Khai-Nguyen Nguyen^{*}**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
+_Workshop on Sparsity in Neural Networks, ICLR 2023_ <br>
+
+**Real-time Speech Summarization for Medical Conversations** <br>
+K Le-Duc, **Khai-Nguyen Nguyen^{*}**, L Vo-Dang, TS Hy
+arXiv preprint arXiv:2406.15888		2024
 
 **Like a bilingual baby: The advantage of visually grounding a bilingual language model** <br>
 **Khai-Nguyen Nguyen**, Zixin Tang, Ankur Mali, M Alex Kelly<br>
-_Submitted to CogSci 2023_
+_Arxiv, 2022_
 
 **Important and Difficult Topics in CS2: An Expert Consensus via Delphi Study** <br>
 Lea Wittie, Anastasia Kurdia, Meriel Huggard, **Khai-Nguyen Nguyen** <br>
-_Submitted to the ASEE Annual Conference and Exposition 2023_
+_ASEE Annual Conference and Exposition 2023_
 
+Submitted Papers
+=====
+**Sentiment Reasoning for Healthcare** <br>
+Khai Le-Duc, Khai-Nguyen Nguyen^{*}, Bach Phan Tat, Duy Le, Jerry Ngo, Long Vo-Dang, Anh Totti Nguyen, Truong-Son Hy
+_Submitted to EMNLP 2024_
 
+**Medical Spoken Named Entity Recognition** <br>
+Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, **Khai-Nguyen Nguyen**, Truong-Son Hy, Ralf Schluter
+arXiv preprint arXiv:2406.13337
+
+**Note:** * denotes equal contribution
