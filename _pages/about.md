@@ -14,9 +14,43 @@ I am fortunate to be advised by Professor Alex Kelly (Carleton University) and P
 
 My work
 ===
-What does it mean for a model to achieve human-level language understanding, and how do we get there? While the first part of the question is more philosophical, I believe one direction toward the answer to the second part lies in **adopting elements from human language learning** into models. Toward this end, my research projects in NLP have explored ([1](https://arxiv.org/abs/2210.05487)) using visually grounded information to learn better representation in multilingual context - a technique motivated by the multimodal learning in humans - and ([2](https://github.com/toontran/limitless-sequence-modeling)) summarizing past texts and incorporate them to the current input to capture long-range dependencies - a phenomenom utilized by writers and story-tellers in their works. 
+<style>
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
 
-Towards the answer to the first question, I believe interpretability is of great importance. Many models are said to perform certain tasks at the same level as humans, if not better. However, what attributed to their success? What is the rationale behind their outputs? If we are able to answer these questions, we are one step closer to understand the capabilities of the state-of-the-arts, and subsequently could work toward improving them. My related experience on this topic mainly deals with feedforward networks, but I am exploring ways to extending the methods developed with Professor Serra to the transformer architecture.
+code {
+    font-family: "Source Code Pro", monospace;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+</style>
+
+# Human-Level Language Understanding in Models
+
+What does it mean for a model to achieve human-level language understanding, and how do we get there? While the first part of the question is more philosophical, I believe one direction toward the answer to the second part lies in **adopting elements from human language learning** into models.
+
+Toward this end, my research projects in NLP have explored [using visually grounded information to learn better representation in multilingual context](https://arxiv.org/abs/2210.05487) — a technique motivated by the multimodal learning in humans — and [summarizing past texts and incorporating them into the current input](https://github.com/toontran/limitless-sequence-modeling) to capture long-range dependencies — a phenomenon utilized by writers and storytellers in their works.
+
+Towards the answer to the first question, I believe interpretability is of great importance. Many models are said to perform certain tasks at the same level as humans, if not better. However, what attributes to their success? What is the rationale behind their outputs? If we can answer these questions, we are one step closer to understanding the capabilities of the state-of-the-arts, and subsequently could work toward improving them.
+
+My related experience on this topic mainly deals with feedforward networks, but I am exploring ways to extend the methods developed with Professor Serra to the transformer architecture.
 
 
 CS education
