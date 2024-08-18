@@ -43,11 +43,11 @@ Papers
 Publications
 =====
 **Getting away with more network pruning: From sparsity to geometry and linear regions** <br> 
-Jeffrey Cai, **Khai-Nguyen Nguyen<sup>*</sup>**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
+Jeffrey Cai<sup>*</sup>, **Khai-Nguyen Nguyen<sup>*</sup>**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
 _Workshop on Sparsity in Neural Networks, ICLR 2023_ <br>
 
 **Real-time Speech Summarization for Medical Conversations** <br>
-K Le-Duc, **Khai-Nguyen Nguyen**^{*}, L Vo-Dang, TS Hy<br>
+Khai Le-Duc<sup>*</sup>, **Khai-Nguyen Nguyen<sup>*</sup>**, L Vo-Dang, TS Hy<br>
 _Interspeech 2023_
 
 **Like a bilingual baby: The advantage of visually grounding a bilingual language model** <br>
@@ -61,11 +61,11 @@ _ASEE Annual Conference and Exposition 2023_
 Submitted Papers
 =====
 **Sentiment Reasoning for Healthcare** <br>
-Khai Le-Duc, Khai-Nguyen Nguyen^{*}, Bach Phan Tat, Duy Le, Jerry Ngo, Long Vo-Dang, Anh Totti Nguyen, Truong-Son Hy
+Khai Le-Duc<sup>*</sup>, **Khai-Nguyen Nguyen<sup>*</sup>**, Bach Phan Tat, Duy Le, Jerry Ngo, Long Vo-Dang, Anh Totti Nguyen, Truong-Son Hy <br>
 _Submitted to EMNLP 2024_
 
 **Medical Spoken Named Entity Recognition** <br>
-Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, **Khai-Nguyen Nguyen**, Truong-Son Hy, Ralf Schluter
+Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, **Khai-Nguyen Nguyen**, Truong-Son Hy, Ralf Schluter <br>
 _arXiv, 2024_
 
 **Note:** * denotes equal contribution
