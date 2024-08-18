@@ -7,7 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylvania. I am particularly interested in methods of improving existing models' learning to reach human-level language understanding.
+I am a CS graduate student at The College of William and Mary. I am interested in applications of NLP, particularly LLMs, in the healthcare, clinical and information retrieval domains. My research focuses on xyz.
+
+I was an intern at the Machine Learning Research team at CodaMetrix where I worked on improving the performance of automated ICD-10 extreme multilabeled classification systems. I graduated with a summa cum laude from Bucknell University, PA.
+
+
 
 Publications
 =====
