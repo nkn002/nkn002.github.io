@@ -12,6 +12,7 @@ I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylva
 Publications
 =====
 ***:spades: denotes equal contribution***
+
 **Real-time Speech Summarization for Medical Conversations** <br>
 Khai Le-Duc<sup>:spades:</sup>, **Khai-Nguyen Nguyen<sup>:spades:</sup>**, L Vo-Dang, TS Hy<br>
 _Interspeech 2024_<br>
