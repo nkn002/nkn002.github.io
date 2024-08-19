@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Khai-Nguyen Nguyen"
-excerpt: "Khai-Nguyen Nguyen"
+title: "About me"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
