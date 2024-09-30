@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a CS graduate student at The College of William and Mary. I am interested in applications of NLP, particularly LLMs, in the healthcare, clinical and information retrieval domains. My research focuses on xyz.
+I am currently a research associate at Forward Data Lab, supervised by Professor [Kevin Chen-chuan Chang](https://siebelschool.illinois.edu/about/people/faculty/kcchang). I am also fortunated to be supervised by [Hy Truong Son](https://people.cs.uchicago.edu/~hytruongson/), [Anh Totti Nguyen](https://anhnguyen.me/research/) and [Thiago Serra](https://tippie.uiowa.edu/people/thiago-serra). 
 
-I was an intern at the Machine Learning Research team at CodaMetrix where I worked on improving the performance of automated ICD-10 extreme multilabeled classification systems. I graduated with a summa cum laude from Bucknell University, PA.
+I am interested in applications of NLP, particularly LLMs, in the domains of healthcare and information retrieval. I am currently researching methods of leveraging LLMs to bridge the semantic gap between complex queries and products. In the healthcare domain, my works include improving real-time speech summarization with LLM synthetic label generation ([link](https://arxiv.org/pdf/2406.15888)) and leveraging LLM reasoning to enhance the interpretability and performance of medical sentiment analysis models ([here](https://arxiv.org/pdf/2407.21054)). I was an intern at the Machine Learning Research team at CodaMetrix where I worked on improving the performance of automated ICD-10 extreme multilabeled classification systems.
 
 
 
