@@ -20,7 +20,7 @@ Publications
 ***♠ denotes equal contribution***
 
 **Real-time Speech Summarization for Medical Conversations** <br>
-Khai Le-Duc<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, L Vo-Dang, TS Hy<br>
+Khai Le-Duc<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, Long Vo-Dang, Truong-Son Hy<br>
 _Interspeech 2024_<br>
 [Paper](https://arxiv.org/pdf/2406.15888)
 
