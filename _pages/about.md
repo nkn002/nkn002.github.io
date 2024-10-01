@@ -39,6 +39,6 @@ _Submitted to COLING 2024_<br>
 **Khai-Nguyen Nguyen**, Zixin Tang, Ankur Mali, M Alex Kelly<br>
 _arXiv, 2022_<br>
 
-[**Important and Difficult Topics in CS2: An Expert Consensus via Delphi Study**]((https://www.tara.tcd.ie/bitstream/handle/2262/104028/important-and-difficult-topics-in-cs2-an-expert-consensus-via-delphi-study.pdf?sequence=1)) <br>
+[**Important and Difficult Topics in CS2: An Expert Consensus via Delphi Study**](https://www.tara.tcd.ie/bitstream/handle/2262/104028/important-and-difficult-topics-in-cs2-an-expert-consensus-via-delphi-study.pdf?sequence=1) <br>
 Lea Wittie, Anastasia Kurdia, Meriel Huggard, **Khai-Nguyen Nguyen** <br>
 _ASEE Annual Conference and Exposition 2023_<br>
