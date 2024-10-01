@@ -23,6 +23,9 @@ main:
 #   - title: "Guide"
 #     url: /markdown/
 
-  - title: "Miscellaneous"
-    url: /miscellaneous/
+  # - title: "Miscellaneous"
+  #   url: /miscellaneous/
+    
+  - title: "CV"
+    url: /cv/
 
