@@ -11,7 +11,7 @@ I am currently a research associate at Forward Data Lab at UIUC, supervised by P
 
 1. **LLMs in Information Retrieval**: Currently, I am developing methods of leveraging LLMs to bridge the semantic gap between complex queries and products. 
 2. **LLMs in Healthcare**: I worked on improving speech summarization with LLM synthetic data ([link](https://arxiv.org/pdf/2406.15888)) and leveraging LLM reasoning to enhance the interpretability and performance of medical sentiment analysis ([link](https://arxiv.org/pdf/2407.21054)).
-3. **Vision-Language Models**: Some tasks are simple for humans yet hard for VLMs. My current research focus on methods that help quantify, understand and close this performance gap. 
+3. **Vision-Language Models**: Some tasks are simple for humans yet hard for VLMs. My current project aims to quantify, understand and close this performance gap. 
 
 In the summer of 2024, I was an intern at the Machine Learning Research team at CodaMetrix where I worked on improving the performance of automated ICD-10 extreme multilabeled classification systems.
 
