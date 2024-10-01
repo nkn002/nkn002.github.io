@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="files/khainguyen_cvitae.pdf" style="width:100%; height:600px;" frameborder="0"></iframe>
+<iframe src="khainguyen_cvitae.pdf" style="width:100%; height:600px;" frameborder="0"></iframe>
