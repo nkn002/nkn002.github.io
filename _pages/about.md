@@ -24,13 +24,13 @@ Publications
 Khai Le-Duc<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, Long Vo-Dang, Truong-Son Hy<br>
 _Interspeech 2024_<br>
 
+[**Sentiment Reasoning for Healthcare**](https://arxiv.org/pdf/2407.21054) <br>
+**Khai-Nguyen Nguyen<sup>♠</sup>**, Khai Le-Duc<sup>♠</sup>, Bach Phan Tat, Duy Le, Jerry Ngo, Long Vo-Dang, Anh Totti Nguyen, Truong-Son Hy <br>
+_Workshop on Advancements In Medical Foundation Models, NeurIPS 2024_<br>
+
 [**Getting away with more network pruning: From sparsity to geometry and linear regions**](https://arxiv.org/pdf/2301.07966) <br> 
 Jeffrey Cai<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra <br>
 _Workshop on Sparsity in Neural Networks, ICLR 2023_ <br>
-
-[**Sentiment Reasoning for Healthcare**](https://arxiv.org/pdf/2407.21054) <br>
-Khai Le-Duc<sup>♠</sup>, **Khai-Nguyen Nguyen<sup>♠</sup>**, Bach Phan Tat, Duy Le, Jerry Ngo, Long Vo-Dang, Anh Totti Nguyen, Truong-Son Hy <br>
-_Submitted to EMNLP 2024_<br>
 
 [**Medical Spoken Named Entity Recognition**](https://arxiv.org/pdf/2406.13337) <br>
 Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, **Khai-Nguyen Nguyen**, Truong-Son Hy, Ralf Schluter <br>
