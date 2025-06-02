@@ -16,6 +16,7 @@ I am currently a student at the College of William and Mary. I am also fortunate
 Selected Publications
 =====
 ***♠ denotes equal contribution***
+
 [**Sentiment Reasoning for Healthcare**](https://arxiv.org/pdf/2407.21054) <br>
 **Khai-Nguyen Nguyen<sup>♠</sup>**, Khai Le-Duc<sup>♠</sup>, Bach Phan Tat, Duy Le, Long Vo-Dang, Truong-Son Hy <br>
 _ACL 2025, Industry Track (Oral)_<br>
