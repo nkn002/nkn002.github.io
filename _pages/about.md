@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 <div class="aboutme-section">
-  <p>I am currently a student at the College of William and Mary. I am fortunate to be supervised by  <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a>, <a href="https://people.cs.uchicago.edu/~hytruongson/">Hy Truong Son</a>, and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on explainable and trustworthy AI, specifically quantifying and understanding the limitations and biases of LLMs. 
+  <p>I am currently a student at the College of William and Mary. I am fortunate to be supervised by  <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a>, <a href="https://people.cs.uchicago.edu/~hytruongson/">Hy Truong Son</a>, and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on explainable and trustworthy AI, specifically quantifying and understanding the limitations and biases of LLMs. </p>
+
   
-  Previously, I was an intern at the Machine Learning Research team at <a href="https://www.codametrix.com/">CodaMetrix</a> in Summer 2024 and Summer 2025, where I developed LLM agents that (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs. </p>
+  <p>Previously, I was an intern at the Machine Learning Research team at <a href="https://www.codametrix.com/">CodaMetrix</a> in Summer 2024 and Summer 2025, where I developed LLM agents that (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs. </p>
 </div>
 <hr class="section-divider">
 
@@ -25,12 +26,12 @@ Selected Publications
   <div class="publication-details">
     <div class="publication-title">Vision-Language Models are Biased</div>
     <div class="publication-authors">An Vo<sup>♠</sup>, <b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Mohammad Reza Taesiri,  Vy Tuong Dang, Anh Totti Nguyen, Daeyoung Kim </div>
-    <div class="publication-venue">arxiv</div>
+    <div class="publication-venue">AI for Math Workshop@ ICML 2025, Submitted to NeurIPS 2025</div>
     <div class="publication-links">
       <a href="https://arxiv.org/abs/2505.23941" class="button">paper</a> / <a href="https://vlmsarebiased.github.io/" class="button">website</a> / <a href="https://huggingface.co/datasets/anvo25/vlms-are-biased" class="button">dataset</a>
     </div> 
     <div class="publication-description">
-      We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns and propose **VLMBias**, a VQA benchmark focusing on evaluating visual biases in VLMs. 
+      We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns and propose <b>VLMBias</b>, a VQA benchmark focusing on evaluating visual biases in VLMs. 
     </div>
   </div>
 </div>
