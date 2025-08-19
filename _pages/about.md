@@ -1,18 +1,16 @@
 ---
 permalink: /
 # title: "About me"
-excerpt: "About me"
+# excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 <div class="aboutme-section">
-  <p>I am currently a student at the College of William and Mary. I am also fortunate to be supervised by <a href="https://people.cs.uchicago.edu/~hytruongson/">Hy Truong Son</a>, <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a> and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on applications of LLMs in the domains of Healthcare, and quantifying and understanding the limitations and biases of LLMs and VLMs.</p>
-  <ul>
-    <li><b>LLMs in Healthcare</b>: I worked on improving speech summarization with LLM synthetic data (<a href="https://arxiv.org/pdf/2406.15888">link</a>) and leveraging LLM reasoning to enhance the interpretability and performance of medical sentiment analysis (<a href="https://arxiv.org/pdf/2407.21054">link</a>).</li>
-    <li><b>Vision-Language Models</b>: Some tasks are simple for humans yet hard for VLMs. My current project aims to quantify, understand and close this performance gap.</li>
-  </ul>
+  <p>I am currently a student at the College of William and Mary. I am fortunate to be supervised by  <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a>, <a href="https://people.cs.uchicago.edu/~hytruongson/">Hy Truong Son</a>, and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on explainable and trustworthy AI, specifically quantifying and understanding the limitations and biases of LLMs. 
+  
+  Previously, I was an intern at the Machine Learning Research team at <a href="https://www.codametrix.com/">CodaMetrix</a> in Summer 2024 and Summer 2025, where I developed LLM agents that (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs. </p>
 </div>
 <hr class="section-divider">
 
@@ -29,10 +27,10 @@ Selected Publications
     <div class="publication-authors">An Vo<sup>♠</sup>, <b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Mohammad Reza Taesiri,  Vy Tuong Dang, Anh Totti Nguyen, Daeyoung Kim </div>
     <div class="publication-venue">arxiv</div>
     <div class="publication-links">
-      <a href="https://arxiv.org/abs/2505.23941" class="button">paper</a>
-    </div>
+      <a href="https://arxiv.org/abs/2505.23941" class="button">paper</a> / <a href="https://vlmsarebiased.github.io/" class="button">website</a> / <a href="https://huggingface.co/datasets/anvo25/vlms-are-biased" class="button">dataset</a>
+    </div> 
     <div class="publication-description">
-      We develop a VLM benchmark that attacks visual biases in state-of-the-art models.
+      We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns and propose **VLMBias**, a VQA benchmark focusing on evaluating visual biases in VLMs. 
     </div>
   </div>
 </div>
@@ -46,10 +44,10 @@ Selected Publications
     <div class="publication-authors"><b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Khai Le-Duc<sup>♠</sup>, Bach Phan Tat, Duy Le, Long Vo-Dang, Truong-Son Hy</div>
     <div class="publication-venue">ACL 2025, Industry Track (Oral)</div>
     <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2407.21054" class="button">paper</a>
+      <a href="https://aclanthology.org/2025.acl-industry.82/" class="button">paper</a>
     </div>
     <div class="publication-description">
-      We leverage LLM reasoning to enhance interpretability and performance of medical sentiment analysis.
+      We demonstrate that chain-of-thought distillation improves LLMs performance in sentiment analysis and enables LLMs to produce human-like explanation.
     </div>
   </div>
 </div>
@@ -66,7 +64,7 @@ Selected Publications
       <a href="https://arxiv.org/pdf/2406.13337" class="button">paper</a>
     </div>
     <div class="publication-description">
-      We address named entity recognition in medical speech using advanced LLM techniques.
+      We propose a multilingual dataset for the medical named entity recognition task. 
     </div>
   </div>
 </div>
@@ -83,7 +81,7 @@ Selected Publications
       <a href="https://arxiv.org/pdf/2406.15888" class="button">paper</a>
     </div>
     <div class="publication-description">
-      We improve medical speech summarization with LLM-generated synthetic data.
+      We improve cascaded medical speech summarization LLMs using high-quality synthetic data.
     </div>
   </div>
 </div>
@@ -95,12 +93,12 @@ Selected Publications
   <div class="publication-details">
     <div class="publication-title">Getting away with more network pruning: From sparsity to geometry and linear regions</div>
     <div class="publication-authors">Jeffrey Cai<sup>♠</sup>, <b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra</div>
-    <div class="publication-venue">Workshop on Sparsity in Neural Networks, ICLR 2023</div>
+    <div class="publication-venue">Workshop on Sparsity in Neural Networks, ICLR 2023 & CPAIOR 2023</div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2301.07966" class="button">paper</a>
     </div>
     <div class="publication-description">
-      We explore the geometric properties of neural networks under aggressive pruning.
+      We propose a mathematical theorem of the geometric properties of neural networks and apply it to model pruning.
     </div>
   </div>
 </div>
