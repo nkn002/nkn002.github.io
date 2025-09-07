@@ -8,10 +8,11 @@ redirect_from:
   - /about.html
 ---
 <div class="aboutme-section">
-  <p>I am currently a student at the College of William and Mary. I am fortunate to be supervised by  <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a>, <a href="https://people.cs.uchicago.edu/~hytruongson/">Hy Truong Son</a>, and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on explainable and trustworthy AI, specifically quantifying and understanding the limitations and biases of LLMs. </p>
+  <p>I am currently a student at the College of William and Mary. I am fortunate to be supervised by  <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a>, <a href="https://people.cs.uchicago.edu/~hytruongson/">Hy Truong Son</a>, and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on multimodal AI and trustworthy AI. I am especially interested in (1) quantifying and understanding the limitations and biases of LLMs/VLMs and (2) making LLM systems more interpretable in high-stake domains such as medical and healthcare.</p>
 
-  
-  <p>Previously, I was an intern at the Machine Learning Research team at <a href="https://www.codametrix.com/">CodaMetrix</a> in Summer 2024 and Summer 2025, where I developed LLM agents that (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs. </p>
+  <p>My works have been accepted at premier venues such as ACL, NAACL, Interspeech, etc. My most recent project, <a href="https://vlmsarebiased.github.io/">VLMs are Biased</a>, has been featured on <a href="https://news.ycombinator.com/item?id=44169413">Hacker News</a> and garnered attention from <a href="https://x.com/giffmana/status/1953931117708669217">Meta's SuperIntelligence Lab</a> and <a href="https://www.linkedin.com/posts/activity-7360208444731146240-30Mc/">Google DeepMind</a>.</p>
+
+  <p>I was also an intern at the Machine Learning Research team at <a href="https://www.codametrix.com/">CodaMetrix</a> in Summer 2024 and Summer 2025, where I developed LLM agents that (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs. </p>
 </div>
 <hr class="section-divider">
 
