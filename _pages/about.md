@@ -27,9 +27,9 @@ Selected Publications
   <div class="publication-details">
     <div class="publication-title">Vision-Language Models are Biased</div>
     <div class="publication-authors">An Vo<sup>♠</sup>, <b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Mohammad Reza Taesiri,  Vy Tuong Dang, Anh Totti Nguyen, Daeyoung Kim </div>
-    <div class="publication-venue">AI for Math Workshop@ ICML 2025, Submitted to NeurIPS 2025</div>
+    <div class="publication-venue">AI for Math Workshop @ ICML 2025, Submitted to NeurIPS 2025</div>
     <div class="publication-links">
-      <a href="https://arxiv.org/abs/2505.23941" class="button">paper</a> / <a href="https://vlmsarebiased.github.io/" class="button">website</a> / <a href="https://huggingface.co/datasets/anvo25/vlms-are-biased" class="button">dataset</a>
+      <a href="https://arxiv.org/abs/2505.23941" class="button">paper</a> / <a href="https://vlmsarebiased.github.io/" class="button">website</a> / <a href="https://huggingface.co/datasets/anvo25/vlms-are-biased" class="button">dataset</a> / <a href="https://github.com/anvo25/vlms-are-biased" class="button">code</a>
     </div> 
     <div class="publication-description">
       We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns and propose <b>VLMBias</b>, a VQA benchmark focusing on evaluating visual biases in VLMs. 
@@ -46,7 +46,7 @@ Selected Publications
     <div class="publication-authors"><b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Khai Le-Duc<sup>♠</sup>, Bach Phan Tat, Duy Le, Long Vo-Dang, Truong-Son Hy</div>
     <div class="publication-venue">ACL 2025, Industry Track (Oral)</div>
     <div class="publication-links">
-      <a href="https://aclanthology.org/2025.acl-industry.82/" class="button">paper</a>
+      <a href="https://aclanthology.org/2025.acl-industry.82/" class="button">paper</a> / <a href="https://github.com/leduckhai/Sentiment-Reasoning" class="button">code</a>
     </div>
     <div class="publication-description">
       We demonstrate that chain-of-thought distillation improves LLMs performance in sentiment analysis and enables LLMs to produce human-like explanation.
@@ -63,7 +63,7 @@ Selected Publications
     <div class="publication-authors">Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, <b>Khai-Nguyen Nguyen</b>, Truong-Son Hy, Ralf Schluter</div>
     <div class="publication-venue">NAACL 2025, Industry Track (Oral)</div>
     <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2406.13337" class="button">paper</a>
+      <a href="https://arxiv.org/pdf/2406.13337" class="button">paper</a> / <a href="https://huggingface.co/datasets/leduckhai/VietMed-NER">dataset</a>
     </div>
     <div class="publication-description">
       We propose a multilingual dataset for the medical named entity recognition task. 
@@ -80,7 +80,7 @@ Selected Publications
     <div class="publication-authors">Khai Le-Duc<sup>♠</sup>, <b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Long Vo-Dang, Truong-Son Hy</div>
     <div class="publication-venue">Interspeech 2024 (Oral)</div>
     <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2406.15888" class="button">paper</a>
+      <a href="https://arxiv.org/pdf/2406.15888" class="button">paper</a> / <a href="https://huggingface.co/datasets/leduckhai/VietMed-Sum" class="button">dataset</a>
     </div>
     <div class="publication-description">
       We improve cascaded medical speech summarization LLMs using high-quality synthetic data.
@@ -95,9 +95,9 @@ Selected Publications
   <div class="publication-details">
     <div class="publication-title">Getting away with more network pruning: From sparsity to geometry and linear regions</div>
     <div class="publication-authors">Jeffrey Cai<sup>♠</sup>, <b>Khai-Nguyen Nguyen<sup>♠</sup></b>, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra</div>
-    <div class="publication-venue">Workshop on Sparsity in Neural Networks, ICLR 2023 & CPAIOR 2023</div>
+    <div class="publication-venue">Workshop on Sparsity in Neural Networks @ ICLR 2023, CPAIOR 2023</div>
     <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2301.07966" class="button">paper</a>
+      <a href="https://arxiv.org/pdf/2301.07966" class="button">paper</a> / <a href="https://github.com/caidog1129/getting_away_with_network_pruning"> code</a>
     </div>
     <div class="publication-description">
       We propose a mathematical theorem of the geometric properties of neural networks and apply it to model pruning.
