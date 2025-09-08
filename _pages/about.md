@@ -73,6 +73,23 @@ Selected Publications
 
 <div class="publication-block">
   <div class="publication-image">
+    <img src="../images/qlora-code.png" alt="Resource-Efficient & Effective Code Summarization">
+  </div>
+  <div class="publication-details">
+    <div class="publication-title">Resource-Efficient & Effective Code Summarization</div>
+    <div class="publication-authors">Saima Afrin, Joseph Call, <b>Khai-Nguyen Nguyen</b>, Oscar Chaparro, Antonio Mastropaolo</div>
+    <div class="publication-venue">FORGE 2025</div>
+    <div class="publication-links">
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11052615" class="button">paper</a> / <a href="https://github.com/saimaafrin/qlora-code-summarization">code</a>
+    </div>
+    <div class="publication-description">
+      We show that Code LLMs finetuned on QLoRA/LoRA achieve comparable performance to their full-parameter finetuned versions on code summarization. 
+    </div>
+  </div>
+</div>
+
+<div class="publication-block">
+  <div class="publication-image">
     <img src="../images/realtime.png" alt="Real-time Speech Summarization for Medical Conversations">
   </div>
   <div class="publication-details">
