@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 <div class="aboutme-section">
+  <small>
   <p>I am currently a PhD student at the College of William and Mary advised by <a href="https://antoniomastropaolo.com">Dr. Antonio Mastropaolo</a>. I am also fortunate to be supervised by  <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a>, <a href="https://hytruongson.github.io/HySonLab/">Hy Truong Son</a>, and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on <b>multimodal AI</b> and <b>trustworthy AI</b>. I am especially interested in (1) quantifying and understanding the limitations and biases of LLMs/VLMs and (2) making LLM systems more interpretable in high-stake domains such as medical and healthcare.</p>
 
-  <p>My works have been accepted at premier venues such as ACL, NAACL, Interspeech, etc. My most recent project, <a href="https://vlmsarebiased.github.io/">VLMs are Biased</a>, has been featured on <a href="https://news.ycombinator.com/item?id=44169413">Hacker News</a> and garnered attention from <a href="https://x.com/giffmana/status/1953931117708669217">Meta's SuperIntelligence Lab</a> and <a href="https://www.linkedin.com/posts/activity-7360208444731146240-30Mc/">Google DeepMind</a>.</p>
+  <p>My works have been accepted at premier venues such as ACL, NAACL, Interspeech, etc. My most recent project, <a href="https://vlmsarebiased.github.io/">VLMs are Biased</a>, has been featured on <a href="https://news.ycombinator.com/item?id=44169413">Hacker News</a> and garnered attention from <a href="https://x.com/giffmana/status/1953931117708669217">Meta's SuperIntelligence Lab</a> and <a href="https://garymarcus.substack.com/p/gpt-5-overdue-overhyped-and-underwhelming">Gary Marcus</a>.</p>
 
   <p>I was also an intern at the Machine Learning Research team at <a href="https://www.codametrix.com/">CodaMetrix</a> in Summer 2024 and Summer 2025, where I developed LLM agents that (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs. </p>
+  </small>
 </div>
 <hr class="section-divider">
 
@@ -32,7 +34,7 @@ Selected Publications
       <a href="https://openreview.net/forum?id=bxGQx7mrnR" class="button">paper</a>
     </div> 
     <div class="publication-description">
-       We present S-Chain, a large dataset of 12,000 expert-labeled medical images with step-by-step visual reasoning. Training models with S-Chain improves their accuracy (+8.16% points on average) and interpretability.
+       We present S-Chain, a large dataset of 12,000 expert-labeled medical images with step-by-step visual reasoning. Training models with S-Chain improves their accuracy (+8.16% points on average) and explainability.
     </div>
    </small>
   </div>
@@ -51,7 +53,7 @@ Selected Publications
       <a href="https://arxiv.org/abs/2505.23941" class="button">paper</a> / <a href="https://vlmsarebiased.github.io/" class="button">website</a> / <a href="https://huggingface.co/datasets/anvo25/vlms-are-biased" class="button">dataset</a> / <a href="https://github.com/anvo25/vlms-are-biased" class="button">code</a>
     </div> 
     <div class="publication-description">
-       We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns and propose <b>VLMBias</b>, a VQA benchmark of 1.4k counterfactual images focusing on evaluating visual biases in VLMs.
+       We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns with our proposed benchmark <b>VLMBias</b>, a VQA benchmark of 1.4k counterfactual images focusing on evaluating visual biases in VLMs.
     </div>
     </small>
   </div>
@@ -78,25 +80,6 @@ Selected Publications
 
 <div class="publication-block">
   <div class="publication-image">
-    <img src="../images/named-entity.png" alt="Medical Spoken Named Entity Recognition">
-  </div>
-  <div class="publication-details">
-  <small>
-    <div class="publication-title">Medical Spoken Named Entity Recognition</div>
-    <div class="publication-authors">Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, <b>Khai-Nguyen Nguyen</b>, Truong-Son Hy, Ralf Schluter</div>
-    <div class="publication-venue">NAACL 2025, Industry Track (Oral)</div>
-    <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2406.13337" class="button">paper</a> / <a href="https://huggingface.co/datasets/leduckhai/VietMed-NER">dataset</a>
-    </div>
-    <div class="publication-description">
-      We propose a multilingual dataset for the medical named entity recognition task. 
-    </div>
-   </small>
-  </div>
-</div>
-
-<div class="publication-block">
-  <div class="publication-image">
     <img src="../images/qlora-code.png" alt="Resource-Efficient & Effective Code Summarization">
   </div>
   <div class="publication-details">
@@ -108,7 +91,7 @@ Selected Publications
       <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11052615" class="button">paper</a> / <a href="https://github.com/saimaafrin/qlora-code-summarization">code</a>
     </div>
     <div class="publication-description">
-      We show that Code LLMs finetuned on QLoRA/LoRA achieve comparable performance to their full-parameter finetuned versions on code summarization. 
+      We show that Code LLMs finetuned on QLoRA achieve comparable performance to their full-parameter finetuned versions on code summarization. 
     </div>
     </small>
   </div>
@@ -146,7 +129,7 @@ Selected Publications
       <a href="https://arxiv.org/pdf/2301.07966" class="button">paper</a> / <a href="https://github.com/caidog1129/getting_away_with_network_pruning"> code</a>
     </div>
     <div class="publication-description">
-      We propose a mathematical theorem of the geometric properties of neural networks and apply it to model pruning.
+      We propose a mathematical theorem on the upper bound of the expressiveness of a neural network based on their geometric properties and apply it to model pruning.
     </div>
   </small>
   </div>
