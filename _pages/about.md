@@ -11,7 +11,7 @@ redirect_from:
   <small>
   <p>I am currently a PhD student at the College of William and Mary advised by <a href="https://antoniomastropaolo.com">Dr. Antonio Mastropaolo</a>. I am also fortunate to be supervised by  <a href="https://anhnguyen.me/research/">Anh Totti Nguyen</a>, <a href="https://hytruongson.github.io/HySonLab/">Hy Truong Son</a>, and <a href="https://tippie.uiowa.edu/people/thiago-serra">Thiago Serra</a>. My research focuses on <b>multimodal AI</b> and <b>trustworthy AI</b>. I am especially interested in (1) evaluating and understanding LLMs/MLLMs and (2) making LLM systems more interpretable in high-stake domains such as medical and healthcare.</p>
 
-  <p>My works have been accepted at premier venues such as ACL, NAACL, Interspeech, etc. My most recent project, <a href="https://vlmsarebiased.github.io/">VLMs are Biased</a>, has been featured on <a href="https://news.ycombinator.com/item?id=44169413">Hacker News</a> and garnered attention from <a href="https://x.com/giffmana/status/1953931117708669217">Meta's SuperIntelligence Lab</a>, <a href="https://blog.google/technology/developers/gemini-3-pro-vision/">Google Gemini team</a>, and <a href="https://garymarcus.substack.com/p/gpt-5-overdue-overhyped-and-underwhelming">Gary Marcus</a>.</p>
+  <p>My works have been accepted at premier venues such as ACL, NAACL, Interspeech, etc. My most recent project, <a href="https://vlmsarebiased.github.io/">VLMs are Biased</a>, has been featured on <a href="https://news.ycombinator.com/item?id=44169413">Hacker News</a>. Recently, it was used to <a href="https://blog.google/technology/developers/gemini-3-pro-vision/">benchmark the visual reasoning capabilities of Gemini-3.0-Pro</a> by Google DeepMind.</p>
 
   <p>I was also an intern at the Machine Learning Research team at <a href="https://www.codametrix.com/">CodaMetrix</a> in Summer 2024 and Summer 2025, supervised by Cheng Li. There, I developed LLM agents that (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs. </p>
   </small>
@@ -34,7 +34,7 @@ Selected Publications
       <a href="https://openreview.net/forum?id=bxGQx7mrnR" class="button">paper</a>
     </div> 
     <div class="publication-description">
-       We present S-Chain, a large dataset of 12,000 expert-labeled medical images with step-by-step visual reasoning. Training models with S-Chain improves their accuracy (+8.16% points on average) and explainability.
+       We present S-Chain, a medical dataset for strutured visual reasoning. Training models with S-Chain improves their accuracy (+8.16% points on average) and explainability.
     </div>
    </small>
   </div>
@@ -53,7 +53,7 @@ Selected Publications
       <a href="https://arxiv.org/abs/2505.23941" class="button">paper</a> / <a href="https://vlmsarebiased.github.io/" class="button">website</a> / <a href="https://huggingface.co/datasets/anvo25/vlms-are-biased" class="button">dataset</a> / <a href="https://github.com/anvo25/vlms-are-biased" class="button">code</a>
     </div> 
     <div class="publication-description">
-       We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns with our proposed benchmark <b>VLMBias</b>, a VQA benchmark of 1.4k counterfactual images focusing on evaluating visual biases in VLMs.
+       We demonstrate that state-of-the-art LLMs are strongly biased toward well-known patterns with our proposed benchmark <b>VLMBias</b>, a VQA benchmark of 1.4k machine-generated counterfactual images.
     </div>
     </small>
   </div>
@@ -110,7 +110,7 @@ Selected Publications
       <a href="https://arxiv.org/pdf/2406.15888" class="button">paper</a> / <a href="https://huggingface.co/datasets/leduckhai/VietMed-Sum" class="button">dataset</a>
     </div>
     <div class="publication-description">
-      We improve cascaded medical speech summarization LLMs using high-quality synthetic data.
+      We show that an even split in the annotation budget between synthetic and human-curated data collection yields the best dataset for medical speech summarization LLMs.
     </div>
   </small>
   </div>
