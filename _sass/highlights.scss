@@ -1,53 +1,80 @@
-/* Add to your existing stylesheet (e.g., _sass/custom.scss or assets/css/main.scss) */
 /* ==========================================================================
-   CUSTOM STYLES - Add this at the END of assets/css/main.scss
+   CS-MINIMAL THEME (White Background)
    ========================================================================== */
 
-/* Highlights Banner */
+/* ---------- Color System ---------- */
+:root {
+  --bg-main: #ffffff;
+  --bg-soft: #f8fafc;
+  --bg-highlight: #f1f5f9;
+
+  --border-light: #e5e7eb;
+  --border-medium: #cbd5e1;
+
+  --text-main: #0f172a;      /* slate-900 */
+  --text-muted: #475569;     /* slate-600 */
+  --text-faint: #64748b;     /* slate-500 */
+
+  --accent-primary: #1e40af; /* indigo-800 */
+  --accent-secondary: #2563eb; /* blue-600 */
+
+  --tag-venue-bg: #fef3c7;
+  --tag-venue-fg: #b45309;
+
+  --tag-oral-bg: #dcfce7;
+  --tag-oral-fg: #166534;
+
+  --tag-review-bg: #e0e7ff;
+  --tag-review-fg: #3730a3;
+}
+
+/* ---------- Highlights Banner ---------- */
 .highlights-banner {
-  background: #fffbeb;
-  border: 1px solid #fcd34d;
-  border-radius: 8px;
-  padding: 20px 24px;
-  margin-bottom: 24px;
+  background: var(--bg-highlight);
+  border: 1px solid var(--border-medium);
+  border-radius: 6px;
+  padding: 18px 22px;
+  margin-bottom: 28px;
 }
 
 .highlights-title {
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #b45309;
-  margin-bottom: 12px;
+  letter-spacing: 0.0.99em;
+  color: var(--text-faint);
+  margin-bottom: 10px;
 }
 
 .highlights-banner ul {
   margin: 0 !important;
-  padding-left: 20px !important;
+  padding-left: 18px !important;
 }
 
 .highlights-banner li {
-  margin-bottom: 8px;
-  font-size: 0.95rem;
+  margin-bottom: 6px;
+  font-size: 0.8rem;
+  color: var(--text-main);
 }
 
-/* Publication Items - Grid Layout */
+/* ---------- Publication Items ---------- */
 .pub-item {
   display: grid;
   grid-template-columns: 140px 1fr;
-  gap: 20px;
-  padding: 20px 0;
-  border-bottom: 1px solid #e5e5e5;
+  gap: 22px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border-light);
 }
 
 .pub-item.featured {
-  background: #fffdf7;
-  border: 1px solid #fcd34d;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 12px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border-medium);
+  border-radius: 6px;
+  padding: 22px;
+  margin-bottom: 14px;
 }
 
+/* ---------- Publication Image ---------- */
 /* Publication Image */
 .pub-image {
   width: 140px;
@@ -67,70 +94,74 @@
   object-fit: contain;
 }
 
-/* Publication Content */
+/* ---------- Publication Content ---------- */
 .pub-content {
   display: flex;
   flex-direction: column;
 }
 
+/* ---------- Venue / Tags ---------- */
 .pub-venue {
   margin-bottom: 6px;
 }
 
 span.tag {
   display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 0.68rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  padding: 4px 10px;
+  letter-spacing: 0.06em;
+  padding: 3px 8px;
   border-radius: 4px;
   margin-right: 6px;
 }
 
-.tag.venue { 
-  background: #fef3c7; 
-  color: #b45309; 
+.tag.venue {
+  background: var(--tag-venue-bg);
+  color: var(--tag-venue-fg);
 }
 
-.tag.oral { 
-  background: #dcfce7; 
-  color: #166534; 
+.tag.oral {
+  background: var(--tag-oral-bg);
+  color: var(--tag-oral-fg);
 }
 
-.tag.review { 
-  background: #e0e7ff; 
-  color: #3730a3; 
+.tag.review {
+  background: var(--tag-review-bg);
+  color: var(--tag-review-fg);
 }
 
+/* ---------- Title & Authors ---------- */
 .pub-title {
-  font-size: 1.2rem;
+  font-size: 1.04rem;
   font-weight: 600;
-  margin-bottom: 6px;
-  line-height: 1.4;
+  line-height: 1.45;
+  margin-bottom: 4px;
+  color: var(--text-main);
 }
 
 .pub-authors {
-  font-size: 0.85rem;
-  color: #000000;
+  font-size: 0.7rem;
+  color: var(--text-muted);
   margin-bottom: 4px;
 }
 
-/* Collapsible Summary */
+/* ---------- Collapsible Summary ---------- */
 .pub-summary {
   margin-bottom: 4px;
 }
 
 .pub-summary summary {
   cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: #b45309;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-primary);
   padding: 4px 0;
   list-style: none;
   display: inline-flex;
   align-items: center;
   gap: 4px;
+
 }
 
 .pub-summary summary::-webkit-details-marker {
@@ -139,8 +170,8 @@ span.tag {
 
 .pub-summary summary::before {
   content: "▶";
-  font-size: 0.85rem;
-  transition: transform 0.2s ease;
+  font-size: 0.75rem;
+  transition: transform 0.15s ease;
 }
 
 .pub-summary[open] summary::before {
@@ -148,35 +179,28 @@ span.tag {
 }
 
 .pub-summary p {
-  font-size: 0.88rem;
-  color: #555;
-  margin: 8px 0 0 0;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin: 4px 0 0 0;
   padding-left: 14px;
-  border-left: 2px solid #e5e5e5;
+  border-left: 2px solid var(--border-light);
 }
 
 .pub-links {
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   margin-top: auto;
 }
 
-.pub-links a {
-  color: #b45309;
-  text-decoration: none;
-}
-
-.pub-links a:hover {
-  text-decoration: underline;
-}
-
-/* Responsive - Stack on mobile */
+/* ---------- Responsive ---------- */
 @media (max-width: 600px) {
   .pub-item {
     grid-template-columns: 1fr;
   }
-  
+
   .pub-image {
     width: 100%;
     height: 160px;
   }
 }
+
+/* End of CS-MINIMAL THEME */
