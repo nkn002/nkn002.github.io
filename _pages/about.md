@@ -16,11 +16,11 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
 <div class="highlights-banner">
   <div class="highlights-title">Recent Highlights 🔥</div>
   <ul class="highlights-list">
-   <li><strong> VLMsAreBiased</strong> used by <strong>ByteDance</strong> to evaluate Seed-1.8's VQA capabilities. See their <a href="https://seed.bytedance.com/en/seed1_8">announcement</a> and <a href="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/research/Seed-1.8-Modelcard.pdf"> model card</a> </li>
+   <li><strong> VLMsAreBiased</strong> used by <strong>ByteDance</strong> to evaluate Seed-1.8's VQA capabilities! See their <a href="https://seed.bytedance.com/en/seed1_8">announcement</a> and <a href="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/research/Seed-1.8-Modelcard.pdf"> model card</a> </li>
 
-   <li><strong> VLMsAreBiased</strong> used by <strong>Google DeepMind</strong> to evaluate Gemini-3-Pro's visual reasoning capabilities. See their announcement here: <a href="https://blog.google/technology/developers/gemini-3-pro-vision/"> Gemini 3 Pro: the frontier of vision AI</a></li>
+   <li><strong> VLMsAreBiased</strong> used by <strong>Google DeepMind</strong> to evaluate Gemini-3-Pro's visual reasoning capabilities! See their announcement here: <a href="https://blog.google/technology/developers/gemini-3-pro-vision/"> Gemini 3 Pro: the frontier of vision AI</a></li>
   
-  <li><strong>2 Oral presentations</strong> at ACL 2025 (Industry Track) and Interspeech 2024</li>
+  <li><strong>Two oral presentations</strong> at ACL 2025 (Industry Track) and Interspeech 2024.</li>
   </ul>
 </div>
 

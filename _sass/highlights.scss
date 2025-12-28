@@ -12,8 +12,8 @@
   --border-medium: #cbd5e1;
 
   --text-main: #0f172a;      /* slate-900 */
-  --text-muted: #475569;     /* slate-600 */
-  --text-faint: #64748b;     /* slate-500 */
+  --text-muted: #0f172a;     /* slate-600 */
+  --text-faint: #0f172a;     /* slate-500 */
 
   --accent-primary: #1e40af; /* indigo-800 */
   --accent-secondary: #2563eb; /* blue-600 */
@@ -141,7 +141,7 @@ span.tag {
 }
 
 .pub-authors {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
   margin-bottom: 4px;
 }
@@ -170,7 +170,7 @@ span.tag {
 
 .pub-summary summary::before {
   content: "▶";
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   transition: transform 0.15s ease;
 }
 
