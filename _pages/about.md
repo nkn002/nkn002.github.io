@@ -5,13 +5,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# About
-
 I am a PhD student at the College of William and Mary advised by [Dr. Antonio Mastropaolo](https://antoniomastropaolo.com). I am fortunated to be mentored by [Anh Totti Nguyen](https://anhnguyen.me/research/), [Truong-Son Hy](https://hytruongson.github.io/HySonLab/), and [Thiago Serra](https://tippie.uiowa.edu/people/thiago-serra). 
 
 I am interested in **multimodal AI** and **trustworthy AI**: (1) evaluating and understanding LLMs/MLLMs and (2) making AI systems more robust and interpretable in high-stakes domains such as healthcare.
 
-I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.com/) (Summer 2024 & 2025), where I developed LLM agents to (1) extract medical entities from EHR notes and (2) evaluate and correct entities extracted by human experts and other LLMs.
+I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.com/) (Summer 2024 & 2025), where I developed LLM agents to (1) extract medical entities from EHRs and (2) evaluate and correct entities extracted by human experts and LLMs.
 
 ---
 
@@ -21,8 +19,8 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
    <li><strong> VLMsAreBiased</strong> used by <strong>ByteDance</strong> to evaluate Seed-1.8's VQA capabilities. See their <a href="https://seed.bytedance.com/en/seed1_8">announcement</a> and <a href="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/research/Seed-1.8-Modelcard.pdf"> model card</a> </li>
 
    <li><strong> VLMsAreBiased</strong> used by <strong>Google DeepMind</strong> to evaluate Gemini-3-Pro's visual reasoning capabilities. See their announcement here: <a href="https://blog.google/technology/developers/gemini-3-pro-vision/"> Gemini 3 Pro: the frontier of vision AI</a></li>
-    <li>Research featured on <a href="https://news.ycombinator.com/item?id=44169413">Hacker News front page</a></li>
-    <li><strong>2 Oral presentations</strong> at ACL 2025 (Industry Track) and Interspeech 2024</li>
+  
+  <li><strong>2 Oral presentations</strong> at ACL 2025 (Industry Track) and Interspeech 2024</li>
   </ul>
 </div>
 
