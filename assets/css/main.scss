@@ -33,9 +33,22 @@
 @import "page";
 @import "archive";
 @import "sidebar";
+@import "highlights";
 
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Import fonts - add this at the TOP of main.scss or in head/custom.html */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* Base body font */
+body {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #050505;
+}
+
