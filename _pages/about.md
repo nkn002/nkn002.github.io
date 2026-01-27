@@ -16,9 +16,9 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
 <div class="highlights-banner">
   <div class="highlights-title">Recent Highlights 🔥</div>
   <ul class="highlights-list">
-   <li><strong> VLMsAreBiased</strong> used by <strong>ByteDance</strong> to evaluate Seed-1.8's VQA capabilities! See their <a href="https://seed.bytedance.com/en/seed1_8">announcement</a> and <a href="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/research/Seed-1.8-Modelcard.pdf"> model card</a> </li>
+   <li><strong> VLMsAreBiased</strong> accepted to ICLR 2026 main conference!</li>
 
-   <li><strong> VLMsAreBiased</strong> used by <strong>Google DeepMind</strong> to evaluate Gemini-3-Pro's visual reasoning capabilities! See their announcement here: <a href="https://blog.google/technology/developers/gemini-3-pro-vision/"> Gemini 3 Pro: the frontier of vision AI</a></li>
+   <li><strong> VLMsAreBiased</strong> used by <a href="https://blog.google/technology/developers/gemini-3-pro-vision/">Google DeepMind</a> and <a href="https://seed.bytedance.com/en/seed1_8/">ByteDance</a>!</li>
   
   <li><strong>Two oral presentations</strong> at ACL 2025 (Industry Track) and Interspeech 2024.</li>
   </ul>
@@ -34,7 +34,7 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
     <img src="/images/vllm-biased.png" alt="VLMs Are Biased">
   </div>
   <div class="pub-content">
-    <div class="pub-venue"><span class="tag venue">ICML 2025 Workshop</span> <span class="tag review">Under Review</span></div>
+    <div class="pub-venue"><span class="tag venue">ICLR 2026</span></div>
     <div class="pub-title">Vision-Language Models are Biased</div>
     <div class="pub-authors">An Vo<sup>♠</sup>, <strong>Khai-Nguyen Nguyen</strong><sup>♠</sup>, Mohammad Reza Taesiri, Vy Tuong Dang, Anh Totti Nguyen, Daeyoung Kim</div>
     <details class="pub-summary">

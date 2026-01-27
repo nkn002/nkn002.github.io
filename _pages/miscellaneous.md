@@ -1,16 +1,21 @@
 ---
 layout: archive
-title: ""
+title: "Miscellaneous"
 permalink: /miscellaneous/
 author_profile: true
 redirect_from:
   - /miscellaneous
 ---
+### Cocktails
+I enjoy chilling at the bar, talking to random people, and trying various cocktails. So far, my favorites include Moscow Mule, Daiquiri, and Whiskey Sour. Here are some photos of the cocktails I had:
 
-About my name
-===
-I am originally from Ho Chi Minh City, Vietnam. Here in the States, I go by Nguyen Nguyen, but in Vietnamese, my name is Khải Nguyên [kʰaːj ŋwiəŋ]. As Vietnamese is a tonal and isolating language, many people in the States have found it difficult to pronounce my name. As such, I have enjoyed hearing many variations of my name, such as [wɪn], [wɪnd], or [ɪnwɪn]. Nevertheless, my favorites have been [wɪnwɪn], which is the main motivation for my English name, and Winnie-the-Pooh. Since language changes with time, I believe there is no absolute "correct" way to pronounce any word, so please feel free to call me whatever you want - as long as it makes sense.
+<img src="/images/hobbies/cocktail1.png" alt="Cooking 1" width="285"/> <img src="/images/hobbies/cocktail2.png" alt="Cooking 2" width="232"/> <img src="/images/hobbies/cocktail3.png" alt="Cooking 3" width="183"/> <img src="/images/hobbies/cocktail4.png" alt="Cooking 4" width="215"/>
 
-Hobbies
-===
-I like puns (evidently), cooking, and playing sports (especially badminton and table tennis). I enjoy reading - be it comics or novels. In fact, reading was what introduced me to machine translation as sometimes of my favorite novels are neither in Vietnamese nor English. A couple of years ago, the machine translated texts were still of low-quality, but now their quality has drastically improved to the point where I can make sense of them with relative ease.
+### Music
+I enjoy a wide range of music! My favorite artists are MCK, Cá Hồi Hoang, and Laufey. Lately I've been really into medieval music and Mongolian throat singing :).
+
+<img src="/images/hobbies/tedi.png" alt="Music 1" width="230"/> <img src="/images/hobbies/chh.png" alt="Music 2" width="235"/> <img src="/images/hobbies/laufey.png" alt="Music 3" width="230"/> <img src="/images/hobbies/chillies.png" alt="Music 3" width="250"/>
+
+---
+
+<!-- *Feel free to reach out if you share any of these interests!* -->
