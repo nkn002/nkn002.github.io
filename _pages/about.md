@@ -16,7 +16,7 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
 <div class="highlights-banner">
   <div class="highlights-title">Recent Highlights 🔥</div>
   <ul class="highlights-list">
-   <li><strong> VLMsAreBiased</strong> accepted to ICLR 2026 main conference!</li>
+   <li><strong> VLMsAreBiased</strong> featured on Sky News' <a href="https://www.youtube.com/watch?v=BkRrO_4OCCc">latest piece on AI risks in warfare</a>!</li>
 
    <li><strong> VLMsAreBiased</strong> used by <a href="https://blog.google/technology/developers/gemini-3-pro-vision/">Google DeepMind</a> and <a href="https://seed.bytedance.com/en/seed1_8/">ByteDance</a>!</li>
   
