@@ -1,2 +1,7 @@
+# Build output
 _site/
+.jekyll-cache/
+.sass-cache/
 
+# OS files
+.DS_Store
