@@ -115,9 +115,13 @@
 {% if site.social %}
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
+      "@context" : "https://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name" : "{{ site.social.name | default: site.name }}",
+      {% if site.social.alternate_names %}"alternateName" : {{ site.social.alternate_names | jsonify }},{% endif %}
+      {% if site.author.avatar %}"image" : {{ site.author.avatar | prepend: "/images/" | prepend: base_path | jsonify }},{% endif %}
+      {% if site.social.job_title %}"jobTitle" : "{{ site.social.job_title }}",{% endif %}
+      {% if site.social.affiliation %}"affiliation" : { "@type": "CollegeOrUniversity", "name": "{{ site.social.affiliation }}" },{% endif %}
       "url" : {{ seo_url | jsonify }},
       "sameAs" : {{ site.social.links | jsonify }}
     }
