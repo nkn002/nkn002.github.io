@@ -16,6 +16,8 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
 <div class="highlights-banner">
   <div class="highlights-title">Recent Highlights 🔥</div>
   <ul class="highlights-list">
+   <li><strong> Pattern2Code</strong> accepted at ASE 2026! Check out our <a href="https://pattern2code.github.io/">project website</a>.</li>
+
    <li><strong> VLMsAreBiased</strong> featured on Sky News' <a href="https://www.youtube.com/watch?v=BkRrO_4OCCc">latest piece on AI risks in warfare</a>!</li>
 
    <li><strong> VLMsAreBiased</strong> used by <a href="https://blog.google/technology/developers/gemini-3-pro-vision/">Google DeepMind</a> and <a href="https://seed.bytedance.com/en/seed1_8/">ByteDance</a>!</li>
@@ -43,6 +45,42 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
     </details>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2505.23941">paper</a> / <a href="https://vlmsarebiased.github.io/">website</a> / <a href="https://huggingface.co/datasets/anvo25/vlms-are-biased">dataset</a> / <a href="https://github.com/anvo25/vlms-are-biased">code</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/pattern-over-pixels.png" alt="Pattern over Pixels">
+  </div>
+  <div class="pub-content">
+    <div class="pub-venue"><span class="tag venue">ASE 2026</span></div>
+    <div class="pub-title">Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation</div>
+    <div class="pub-authors"><strong>Khai-Nguyen Nguyen</strong>, Oscar Chaparro, Antonio Mastropaolo</div>
+    <details class="pub-summary">
+      <summary>Summary</summary>
+      <p>We introduce the first benchmark measuring pattern-completion bias in screenshot-to-code generation, showing that frontier MLLMs complete familiar UI patterns instead of reading what is actually on screen.</p>
+    </details>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2608.03691">paper</a> / <a href="https://pattern2code.github.io/">website</a> / <a href="https://huggingface.co/datasets/knguyennguyen/pattern2code">dataset</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/feature_shap.png" alt="FeatureSHAP">
+  </div>
+  <div class="pub-content">
+    <div class="pub-venue"><span class="tag venue">TOSEM</span></div>
+    <div class="pub-title">Toward Explaining Large Language Models in Software Engineering Tasks</div>
+    <div class="pub-authors">Antonio Vitale<sup>♠</sup>, <strong>Khai-Nguyen Nguyen</strong><sup>♠</sup>, Denys Poshyvanyk, Rocco Oliveto, Simone Scalabrino, Antonio Mastropaolo</div>
+    <details class="pub-summary">
+      <summary>Summary</summary>
+      <p>We present FeatureSHAP, an interpretability framework for software engineering tasks that attributes Shapley scores to input features based on their contributions to model output.</p>
+    </details>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2512.20328">paper</a> / <a href="https://github.com/deviserlab/FeatureSHAP">code</a>
     </div>
   </div>
 </div>
@@ -106,18 +144,18 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
 
 <div class="pub-item">
   <div class="pub-image">
-    <img src="/images/feature_shap.png" alt="FeatureSHAP">
+    <img src="/images/uml-prior-bias.png" alt="Prior Bias in VLMs on UML Diagram Interpretation">
   </div>
   <div class="pub-content">
     <div class="pub-venue"><span class="tag review">Under Review</span></div>
-    <div class="pub-title">Toward Explaining Large Language Models in Software Engineering Tasks</div>
-    <div class="pub-authors">Antonio Vitale<sup>♠</sup>, <strong>Khai-Nguyen Nguyen</strong><sup>♠</sup>, Denys Poshyvanyk, Rocco Oliveto, Simone Scalabrino, Antonio Mastropaolo</div>
+    <div class="pub-title">Prior Bias in Vision Language Models on UML Diagram Interpretation</div>
+    <div class="pub-authors">Zaiyu Cheng<sup>♠</sup>, <strong>Khai-Nguyen Nguyen</strong><sup>♠</sup>, Antonio Mastropaolo</div>
     <details class="pub-summary">
       <summary>Summary</summary>
-      <p>We present FeatureSHAP, an interpretability framework for software engineering tasks that attributes Shapley scores to input features based on their contributions to model output.</p>
+      <p>We show that VLMs interpret UML diagrams from pretrained priors rather than the diagram itself: simply reversing relation arrows drops open-source model accuracy by 33.48% on average.</p>
     </details>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2512.20328">paper</a> / <a href="https://github.com/deviserlab/FeatureSHAP">code</a>
+      <a href="https://arxiv.org/abs/2607.02853">paper</a>
     </div>
   </div>
 </div>
