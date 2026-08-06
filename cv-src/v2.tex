@@ -1,0 +1,226 @@
+%-------------------------------------
+% Resume in LaTeX (XeLaTeX)
+% Author:  HF Yuan
+% Project: https://github.com/xyz-yuanhf/yuan-resume
+% Base on: https://github.com/mattyHerzig/mattys_resume
+%          http://www.jianxu.net/en/
+% License: MIT
+%------------------------------------
+
+\documentclass[a4paper, 10pt]{article}
+% \usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome} % for \small{\faExternalLink}
+
+\usepackage{myresume}  % Style package
+% \usepackage{fdsymbol}
+
+% --------------------  START  --------------------
+\begin{document}
+
+% -------------------- HEADING --------------------
+\begin{center}
+  {\Calluna \fontsize{28pt}{28pt}\selectfont \textbf{Khai-Nguyen Nguyen}}
+  
+  \vspace{8pt}
+  
+  \href{mailto:knguyen07@wm.edu}{knguyen07@wm.edu} \quad $\bullet$ \quad
+  (+1) 272-788-0512 \quad $\bullet$ \quad
+  \href{https://scholar.google.com/citations?user=IMryD1YAAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+% -------------------- RESEARCH INTERESTS --------------------
+\sectionBlock{
+\section{Research Interests}
+}{
+Natural Language Processing, Trustworthy AI, Medical NLP, Vision-Language Models, Code Generation
+}
+
+% -------------------- EDUCATION --------------------
+\sectionBlock{
+\section{Education}
+}{
+\eduHeading
+  {College of William \& Mary}{Williamsburg, VA}
+  {M.S. in Computer Science}{2023 - Present}
+\itemListStart
+  \myItem{GPA: 3.96/4.00}
+  \myItem{Advisor: Prof. Antonio Mastropaolo}
+\itemListEnd
+
+\eduHeading
+  {Bucknell University}{Lewisburg, PA}
+  {B.S. in Computer Science and Engineering, Minor in Statistics}{2019 - 2023}
+\itemListStart
+  \myItem{GPA: 3.94/4.00, \textit{Summa Cum Laude}}
+\itemListEnd
+}
+
+% -------------------- PUBLICATIONS --------------------
+\sectionBlock{
+\section{Publications}
+\vspace{-10pt}
+\footnotesize{\textit{$^*$ equal contribution}}
+}{
+\pubListStart
+\justifying
+
+\item[{[6]}] \href{https://arxiv.org/abs/2502.03617}{\textbf{Resource-Efficient \& Effective Code Summarization} \footnotesize{\faExternalLink}}
+
+\noindent Saima Afrin, Joseph Call, \textbf{Khai-Nguyen Nguyen}, Oscar Chaparro, Antonio Mastropaolo
+
+\noindent \textit{ACM International Conference on AI Foundation Models and Software Engineering (FORGE 2025)}
+
+\item[{[5]}] \href{https://vlmsarebiased.github.io/}{\textbf{Vision Language Models are Biased} \footnotesize{\faExternalLink}}
+
+\noindent An Vo$^*$, \textbf{Khai-Nguyen Nguyen}$^*$, Mohammad Reza Taesiri, Vy Tuong Dang, Anh Totti Nguyen, Daeyoung Kim
+
+\noindent \textit{AI4Math Workshop @ ICML 2025} \& \textit{Under review at NeurIPS 2025}
+
+\item[{[4]}] \href{https://arxiv.org/pdf/2407.21054}{\textbf{Sentiment Reasoning for Healthcare} \footnotesize{\faExternalLink}}
+
+\noindent \textbf{Khai-Nguyen Nguyen}$^*$, Khai Le-Duc$^*$, Bach Phan Tat, Duy Le, Truong-Son Hy
+
+\noindent \textit{ACL 2025, Industry Track} \textbf{(Oral Presentation)}
+
+\item[{[3]}] \href{https://arxiv.org/pdf/2406.13337}{\textbf{Medical Spoken Named Entity Recognition} \footnotesize{\faExternalLink}}
+
+\noindent Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, \textbf{Khai-Nguyen Nguyen}, Truong-Son Hy, Ralf Schluter
+
+\noindent \textit{NAACL 2025, Industry Track}
+
+\item[{[2]}] \href{https://arxiv.org/pdf/2406.15888}{\textbf{Real-time Speech Summarization for Medical Conversations} \footnotesize{\faExternalLink}}
+
+\noindent Khai Le-Duc$^*$, \textbf{Khai-Nguyen Nguyen}$^*$, Long Vo-Dang, Truong-Son Hy
+
+\noindent \textit{Interspeech 2024} \textbf{(Oral Presentation)}
+
+\item[{[1]}] \href{https://arxiv.org/pdf/2301.07966}{\textbf{Getting Away with Network Pruning: From Sparsity to Geometry and Linear Regions} \footnotesize{\faExternalLink}}
+
+\noindent Jeffrey Cai$^*$, \textbf{Khai-Nguyen Nguyen}$^*$, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra
+
+\noindent \textit{CPAIOR 2023} \& \textit{Sparsity in Neural Networks Workshop, ICLR 2023}
+
+\pubListEnd
+}
+
+% -------------------- RESEARCH EXPERIENCE --------------------
+\sectionBlock{
+\section{Research Experience}
+}{
+\projHeading
+{\textbf{Auburn University}}
+{Remote}{Jan 2025 - Present}
+\vspace{-12pt}
+\itemListStart
+\myItem{Advisor: Prof. Anh Totti Nguyen}
+\myItem{Leading the \href{https://vlmsarebiased.github.io/}{\textit{Vision Language Models are Biased}} project, uncovering systematic biases in state-of-the-art VLMs (Claude 3.7, o3, Gemini 2.5 Pro)}
+\myItem{Developed VLMBias benchmark: counterfactual VQA dataset where leading models achieve only 20.25\% accuracy}
+\myItem{Designed counterfactual image generation pipelines using Gemini 2.5 Flash Image}
+\itemListEnd
+
+\projHeading
+{\textbf{College of William \& Mary}}
+{Williamsburg, VA}{Sep 2024 - Present}
+\vspace{-12pt}
+\itemListStart
+\myItem{Advisor: Prof. Antonio Mastropaolo}
+\myItem{Developing SHAP-based methods for code generation interpretability}
+\myItem{Fine-tuned code LLMs (QwenCoder, CodeLLama) using QLoRA, achieving 1-2\% improvement in BLEU/ROUGE/METEOR}
+\itemListEnd
+
+\projHeading
+{\textbf{FPT Software AI Center}}
+{Vietnam (Remote)}{May 2024 - Sep 2024}
+\vspace{-12pt}
+\itemListStart
+\myItem{Advisor: Prof. Truong-Son Hy}
+\myItem{Developed multimodal and multitask benchmarks for medical domain}
+\myItem{Improved sentiment analysis on ASR data through chain-of-thought augmented distillation (+1-2\% accuracy)}
+\myItem{Created human-LLM collaborative annotation pipeline generating 25,000 samples for \href{https://huggingface.co/datasets/leduckhai/VietMed-Sum}{\texttt{VietMed-Sum}}}
+\itemListEnd
+}
+
+% -------------------- WORK EXPERIENCE --------------------
+\sectionBlock{
+\section{Industry Experience}
+}{
+\internHeading
+  {Machine Learning Intern, \textit{CodaMetrix}}{Boston, MA}{2025.05 - 2025.08}
+\itemListStart
+  \myItem{Developed LLM judge for medical entity annotation, improving F1 by 2-4\% over human baseline}
+  \myItem{Deployed DSPy-optimized entity extraction LLMs on Databricks (30\% F1 improvement)}
+\itemListEnd
+
+\internHeading
+  {Machine Learning Intern, \textit{CodaMetrix}}{Boston, MA}{2024.05 - 2024.08}
+\itemListStart
+  \myItem{Trained BERT-based model for ICD-10 multilabel classification (4\% accuracy improvement)}
+  \myItem{Implemented distributed training on Databricks, achieving 4x speedup}
+\itemListEnd
+}
+
+% -------------------- SELECTED PROJECTS --------------------
+\sectionBlock{
+\section{Selected Projects}
+}{
+\projHeading
+{\textbf{Backplane Defect Detection}}
+{Bucknell University}{2022.08 - 2023.05}
+\vspace{-12pt}
+\itemListStart
+\myItem{Fine-tuned DenseNet/ResNet for defect classification (96.9\% accuracy, 0.96 F1 on imbalanced data)}
+\myItem{Applied GradCAM for defect localization and model interpretability}
+\itemListEnd
+}
+
+% -------------------- PRESENTATIONS --------------------
+\sectionBlock{
+\section{Presentations}
+}{
+\projHeading
+{\textbf{Medical Spoken Named Entity Recognition}}
+{Poster presentation at \textit{NAACL 2025 Industry Track}}{}
+
+\projHeading
+{\textbf{Real-time Speech Summarization for Medical Conversations}}
+{Oral at \textit{Interspeech 2024}, Poster at \textit{MASC-SLL 2024}}{}
+
+\projHeading
+{\textbf{Like a Bilingual Baby: Visually Grounding Bilingual Language Models}}
+{Poster at \textit{SVURS 2022} and \textit{Kalman Symposium 2022}}{}
+}
+
+% -------------------- HONORS & AWARDS --------------------
+\sectionBlock{
+\section{Honors \& Awards}
+}{
+\awardListStart
+\justifying
+\item \textbf{Computer Science Fellowship}, College of William \& Mary \hfill 2023\newline
+\textit{Awarded \$500 by the CS admissions committee}
+\item \textbf{Dean's List}, Bucknell University \hfill 2019-2023\newline
+\textit{Achieved a GPA of 3.6 or higher every semester}
+\item \textbf{Program for Undergraduate Research Grant}, Bucknell University \hfill 2021\newline
+\textit{Awarded \$4,000 for summer research}
+\item \textbf{Honorable Mention}, Mathematical Contest in Modeling \hfill 2020\newline
+\textit{Ranked top 25\% (3525/13753) among participants}
+\awardListEnd
+}
+
+% -------------------- SERVICE --------------------
+\sectionBlock{
+\section{Service}
+}{
+\skillListStart
+\justifying
+\item \textbf{Teaching Assistant:}
+\item \phantom{\textbf{Teaching Assistant:}} \emph{William \& Mary}: CSCI 140 (Intro to Data Science), CSCI 304 (Computer Organization)
+\item \phantom{\textbf{Teaching Assistant:}} \emph{Bucknell University}: CSCI 204 (Data Structures), MATH 201/202 (Calculus I/II)
+\skillListEnd
+}
+
+\end{document}

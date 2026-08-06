@@ -128,6 +128,7 @@ include:
   - _pages
   - files
 exclude:
+  - cv-src
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

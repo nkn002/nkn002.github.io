@@ -1,0 +1,444 @@
+%-------------------------------------
+% Resum in LaTeX (XeLaTeX)
+% Author:  HF Yuan
+% Project: https://github.com/xyz-yuanhf/yuan-resume
+% Base on: https://github.com/mattyHerzig/mattys_resume
+%          http://www.jianxu.net/en/
+% License: MIT
+%------------------------------------
+
+\documentclass[a4paper, 10pt]{article}
+% \usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+% \usepackage{fontawesome} % unused; commented for local compile
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{myresume}  % Style package
+% \usepackage{fdsymbol}
+
+% --------------------  START  --------------------
+\begin{document}
+
+% -------------------- HEADING --------------------
+\begin{center}
+  {\Calluna \fontsize{20pt}{20pt}\selectfont \textbf{Khai-Nguyen Nguyen}}
+  
+  \vspace{8pt}
+  
+  \href{mailto:rbc5xp@virginia.edu}{\underline{\textcolor{RoyalBlue}{rbc5xp@virginia.edu}}} \quad | \quad
+  (+1) 272-788-0512 \quad | \quad
+  \href{https://scholar.google.com/citations?user=WRiVlZsAAAAJ&hl=en}{\underline{\textcolor{RoyalBlue}{Google Scholar}}} \quad | \quad
+  \href{https://nkn002.github.io}{\underline{\textcolor{RoyalBlue}{nkn002.github.io}}} \quad | \quad
+  \href{https://www.linkedin.com/in/nkn002/}{\underline{\textcolor{RoyalBlue}{LinkedIn}}}
+\end{center}
+
+\hrule
+\vspace{+10pt}
+
+% -------------------- EDUCATION --------------------
+\sectionBlock{
+\section{Education}
+}{
+\eduHeading
+  {University of Virginia}{Virginia, USA}
+  {Ph.D. Student in Data Science}{2026 - 2029 (expected)}
+\itemListStart
+  \myItem{\textbf{Advisor}: Dr. Chirag Agarwal}
+\itemListEnd
+
+\eduHeading
+  {College of William and Mary}{Virginia, USA}
+  {MSc Student in Computer Science}{2023 - 2026}
+\itemListStart
+  \myItem{\textbf{GPA}: 3.96/4.00}
+  \myItem{\textbf{Advisor}: Dr. Antonio Mastropaolo}
+\itemListEnd
+
+\eduHeading
+  {Bucknell University}{Pennsylvania, USA}
+  {B.Sc. in Computer Science and Engineering, minor in Statistics}{2019 - 2023}
+\itemListStart
+  \myItem{\textbf{GPA}: 3.94/4.00 \textit{(Summa Cum Laude)}} 
+\itemListEnd
+}
+\vspace{-10pt}
+\hrule
+\vspace{+10pt}
+
+% \sectionBlock{
+% \section{Research Interests}
+% }{
+% \vspace{+5pt}
+
+% \skillListStart
+% \justifying
+% \item Natural Language Processing, Trustworthy and Explainable AI, Multimodal AI, AI for Healthcare
+% \skillListEnd
+% }
+% \sectionBlock{
+% \section{Selected Skills}
+% }{
+% \skillListStart
+% \justifying
+% \item \emph{Programming Languages}: Python, Java, C/C++, R, SQL
+% \item \emph{Libraries and Frameworks}: PyTorch, TensorFlow, Pandas, HuggingFace, vLLM, nnsight, TransformerLens, SentenceTransformers, DSPy, Matplotlib, Seaborn, GurobiPy
+
+% \skillListEnd
+% }
+
+% \vspace{-30pt}
+% \hrule
+% \vspace{+10pt}
+
+
+% -------------------- PUBLICATIONS --------------------
+
+\sectionBlock{
+\section{Selected Publications}
+ \vspace{-10pt}
+\footnotesize{\textit{$\scriptscriptstyle\clubsuit$: equal contribution}}
+}{
+\pubListStart
+\justifying
+\item {\textbf{Vision Language Models are Biased } [\href{https://arxiv.org/pdf/2505.23941}{\textcolor{RoyalBlue}{pdf}}]}
+
+\noindent An Vo$^{{\scriptscriptstyle\clubsuit}}$, \textbf{Khai-Nguyen Nguyen}$^{\scriptscriptstyle\clubsuit}$, Mohammad Reza Taesiri, Vy Tuong Dang, Anh Totti Nguyen, Daeyoung Kim
+
+\noindent \textit{ICLR 2026}
+
+\item {\textbf{Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation} [\href{https://arxiv.org/abs/2608.03691}{\textcolor{RoyalBlue}{pdf}}]}
+
+\noindent \textbf{Khai-Nguyen Nguyen}, Oscar Chaparro, Antonio Mastropaolo
+
+\noindent \textit{ASE 2026}
+
+\item {\textbf{Toward Explaining Large Language Models in Software Engineering Tasks}}~[\href{https://arxiv.org/abs/2512.20328}{\textcolor{RoyalBlue}{pdf}}]
+
+\noindent {Antonio Vitale}$^{\scriptscriptstyle\clubsuit}$, \textbf{Khai-Nguyen Nguyen}$^{{\scriptscriptstyle\clubsuit}}$, Denys Poshyvanyk,
+Rocco Oliveto, Simone Scalabrino, Antonio Mastropaolo
+
+\noindent \textit{ACM Transactions on Software Engineering and Methodology (TOSEM), 2026}
+
+\item {\textbf{Sentiment Reasoning for Healthcare} \href{https://arxiv.org/pdf/2407.21054}{[\textcolor{RoyalBlue}{pdf}]}}
+
+\noindent \textbf{Khai-Nguyen Nguyen}$^{\scriptscriptstyle\clubsuit}$, Khai Le-Duc$^{\scriptscriptstyle\clubsuit}$, Bach Phan Tat, Duy Le, Truong-Son Hy
+
+\noindent \textit{ACL 2025, Industry Track (Oral)}
+
+\item {\textbf{Medical Spoken Named Entity Recognition} \href{https://arxiv.org/pdf/2406.13337}{[\textcolor{RoyalBlue}{pdf}]}}
+
+\noindent Khai Le-Duc, David Thulke, Hung-Phong Tran, Long Vo-Dang, \textbf{Khai-Nguyen Nguyen}, Truong-Son Hy, Ralf Schluter
+
+\noindent \textit{NAACL 2025, Industry Track}
+
+\item {\textbf{Real-time Speech Summarization for Medical Conversations} \href{https://arxiv.org/pdf/2406.15888}{[\textcolor{RoyalBlue}{pdf}]}}
+
+\noindent Khai Le-Duc$^{\scriptscriptstyle\clubsuit}$, \textbf{Khai-Nguyen Nguyen}$^{\scriptscriptstyle\clubsuit}$, Long Vo-Dang, Truong-Son Hy
+
+\noindent \textit{Interspeech 2024 (Oral)}
+
+\item {\textbf{Getting away with network pruning: {From sparsity to geometry and linear regions}} \href{https://arxiv.org/pdf/2301.07966}{[\textcolor{RoyalBlue}{pdf}]}}
+
+\noindent Jeffrey Cai$^{\scriptscriptstyle\clubsuit}$, \textbf{Khai-Nguyen Nguyen}$^{\scriptscriptstyle\clubsuit}$, Nishant Shrestha, Aidan Good, Ruisen Tu, Xin Yu, Shandian Zhe, Thiago Serra
+
+\noindent \textit{CPAIOR 2023}
+
+\hspace{-15pt}\textit{Sparsity in Neural Networks Workshop @ICLR 2023}
+
+\pubListEnd
+}
+\vspace{-10pt}
+\hrule
+\vspace{+10pt}
+
+
+\sectionBlock{
+\section{Preprints}
+ \vspace{-10pt}
+ \footnotesize{\textit{$\scriptscriptstyle\clubsuit$: equal contribution}}
+}{
+\pubListStart
+\justifying
+\item {\textbf{Prior Bias in Vision Language Models on UML Diagram Interpretation}}~[\href{https://arxiv.org/abs/2607.02853}{\textcolor{RoyalBlue}{pdf}}]
+
+\noindent Zaiyu Cheng$^{\scriptscriptstyle\clubsuit}$, \textbf{Khai-Nguyen Nguyen}$^{{\scriptscriptstyle\clubsuit}}$, Antonio Mastropaolo
+
+\noindent \textit{arXiv 2026}
+
+\item {\textbf{S-Chain: Structured Visual Chain-of-Thought for Medicine}}~[\href{https://arxiv.org/abs/2510.22728}{\textcolor{RoyalBlue}{pdf}}]
+
+\noindent \small{Khai Le-Duc, Phuong T.H. Trinh, Duy Minh Ho Nguyen, Tien-Phat Nguyen, Nghiem Tuong Diep, An Ngo, Tung Vu, Trinh Vuong, Anh-Tien Nguyen, Nguyen Dinh Mau, Van Trung Hoang, \textbf{Khai-Nguyen Nguyen}, Hy Nguyen, Chris Ngo, Anji Liu, Nhat Ho, Anne-Christin Hauschild, Khanh Xuan Nguyen, Thanh Nguyen-Tang, Pengtao Xie, Daniel Sonntag, James Zou, Mathias Niepert, Anh Totti Nguyen}
+
+\noindent \normalsize{\textit{arXiv 2025}}
+
+
+\pubListEnd
+}
+\vspace{-10pt}
+\hrule
+\vspace{+10pt}
+
+% -------------------- RESEARCH --------------------
+
+\sectionBlock{
+\section{Research Experiences}
+}{
+\projHeading
+{\textbf{AURA Lab, College of William and Mary, Virginia, USA}}
+{Research Assistant. Advisor: Prof. Antonio Mastropaolo} {2024.10 - present}
+\vspace{10pt} 
+\hspace{5pt} \underline{Paper}: \textit{Toward Explaining Large Language Models in Software Engineering Tasks}
+\vspace{-15pt} 
+  \itemListStart
+    \myItem{Implemented a model-agnostic SHAP-based framework to quantify the effect of each input feature of software engineering prompts on the model output}
+    \itemListEnd
+
+\hspace{5pt} \underline{Paper}: \textit{Resource-Efficient \& Effective Code Summarization}
+\vspace{-5pt} 
+  \itemListStart
+    \myItem{Built a PEFT training pipeline for code language models (e.g., \texttt{DeepSeek-Coder},  \texttt{CodeLlama}) to quantify the impact of QLoRA on code summarization}
+    \itemListEnd
+
+
+\projHeading
+{\textbf{Nguyen Lab, Auburn University, Alabama, USA}}
+{Remote Collaborator. Advisor: Prof. Anh Totti Nguyen} {2025.01 - present}
+\vspace{10pt} 
+\hspace{5pt} \underline{Paper}: \textit{Vision Language Models are Biased}
+\vspace{-15pt} 
+  \itemListStart
+    % \myItem{Conducting knowledge editing experiments on VLMs to mitigate knowledge bias using the \texttt{EasyEdit} package}
+    \myItem{Conducting ablation and activation patching experiments on open-source VLMs using the \texttt{nnsight} package to locate the source of bias in the model}
+    \itemListEnd
+
+\projHeading
+{\textbf{FPT Software AI Center, Vietnam}}
+{Remote Research Intern. Supervisor: Prof. Truong-Son Hy} {2024.01 - 2024.09}
+\vspace{10pt} 
+\hspace{5pt} \underline{Paper}: \textit{Sentiment Reasoning for Healthcare}
+\vspace{-15pt} 
+  \itemListStart
+    \myItem{Proposed the \textit{sentiment reasoning} task and implemented a chain-of-thought finetuning pipeline for LLMs in medical sentiment analysis}
+    \itemListEnd
+
+\hspace{5pt} \underline{Paper}: \textit{Real-time Speech Summarization for Medical Conversations }
+\vspace{-5pt} 
+  \itemListStart
+    \myItem{Co-led the construction of the \texttt{VietMed-Sum} dataset for medical speech summarization consisting of 24,000 samples and built its training pipeline}
+    \itemListEnd
+
+
+\projHeading
+{\textbf{Analytics Lab, Bucknell University, Pennsylvania, USA}}
+{Undergraduate Research Assistant. Advisor: Prof. Thiago Serra} {2022.05 - 2023.01}
+\vspace{10pt} 
+\hspace{5pt} \underline{Paper}: \textit{Getting away with network pruning: From sparsity to geometry and linear regions}
+\vspace{-15pt} 
+  \itemListStart
+    \myItem{Co-developed a theorem establishing an upper bound on the expressiveness, quantified by linear regions, of ReLU-based deep neural networks.}
+    \itemListEnd
+
+% \projHeading
+% {\textbf{Bucknell University, Pennsylvania, USA}}
+% {Undergraduate Research Assistant. Mentor: Prof. Alex Kelly} {2021.05 - 2022.08}.
+% \vspace{-12pt}
+}
+\vspace{-4pt}
+\hrule
+\vspace{+10pt}
+
+
+% -------------------- INTERNSHIPS --------------------
+\sectionBlock{
+\section{Industry Experiences}
+}{
+\internHeading
+  {Machine Learning Intern, \textit{CodaMetrix}}{Boston, USA}{2025.05 - 2025.08}
+  \itemListStart
+    \myItem{Developed a Gemini-based judge to evaluate and refine medical entity annotations, improving performance by 2–4\% in F1 over human baseline}
+    \myItem{Designed and deployed entity extraction LLMs with DSPy prompt optimization on Databricks, achieving an overall F1 of 70\% on \texttt{Llama-3.1-70B}}
+    \itemListEnd
+\internHeading
+  {Machine Learning Intern, \textit{CodaMetrix}}{Boston, USA}{2024.05 - 2024.08}
+\itemListStart
+  \myItem{Trained a BERT-based LLM for ICD-10 multilabel classification, outperforming the deployed system {by 4\% in accuracy} }
+  \myItem{Accelerate training by 4x on Databricks using distributed and parallel training}
+\itemListEnd
+}
+\vspace{-4pt}
+\hrule
+\vspace{+3pt}
+
+\sectionBlock{
+\section{Academic Service}
+}{
+\skillListStart
+\justifying
+\item \emph{Reviewer}: ACL Rolling Review (ARR), May 2026
+\skillListEnd
+}
+\vspace{-4pt}
+\hrule
+\vspace{+3pt}
+
+\sectionBlock{
+\section{Teaching Experiences}
+}{
+\skillListStart
+\justifying
+\item \emph{William and Mary}: Intro to Data Science (CSCI 140), Computer Organization (CSCI 304), Software Engineering (CSCI 435/535)
+\item \emph{Bucknell University}: Data Structures and Algorithms (CSCI 204), Calculus I \& II (MATH 201, 202)
+\skillListEnd
+}
+\vspace{-4pt}
+\hrule
+\vspace{+3pt}
+
+\sectionBlock{
+\section{Mentorship}
+}{
+\awardListStart
+\justifying
+\item \href{https://www.linkedin.com/in/an-x-ngo/}{\textcolor{RoyalBlue}{\textbf{An Ngo}}}: Bucknell University \hfill 2025.01 - 2025.09
+\item \href{https://www.linkedin.com/in/linh-nguyen-52123021a/}{\textcolor{RoyalBlue}{\textbf{Linh Nguyen}}}: Bucknell University $\rightarrow$ SDE@Amazon \hfill 2024.09 - 2025.01
+\item \href{https://www.linkedin.com/in/duy-le-dev/}{\textcolor{RoyalBlue}{\textbf{Duy Le}}}: Bucknell University\hfill 2024.05 - 2024.08
+\item \href{https://www.linkedin.com/in/hungtienngo/}{\textcolor{RoyalBlue}{\textbf{Hung Ngo}}}: Bucknell University $\rightarrow$ R\&D Engineer@Medivis \hfill 2023.05 - 2023.09
+\awardListEnd
+}
+\vspace{-4pt}
+\hrule
+\vspace{+3pt}
+
+\sectionBlock{
+\section{Press coverage}
+}{
+\skillListStart
+\justifying
+\item \emph{SkyNews}: \href{https://news.sky.com/story/ai-could-be-giving-us-lethal-edge-in-iran-war-but-there-are-dangers-13514784}{\textcolor{RoyalBlue}{{AI could be giving US lethal edge in Iran war - but there are dangers}}}
+\item \emph{SkyNews}: \href{https://www.youtube.com/watch?v=BkRrO_4OCCc}{\textcolor{RoyalBlue}{{This ``chicken" test shows why AI could be so deadly in war}}}
+\skillListEnd
+
+}
+
+
+% \sectionBlock{
+% \section{Presentations}
+% }{
+% \projHeading
+% {\textbf{Sentiment Reasoning for Healthcare }}
+% {Oral presentation at \textit{ACL 2025 Industry Track}}{}
+
+% \projHeading
+% {\textbf{Medical Spoken Named Entity Recognition}}
+% {Poster presentation at \textit{NAACL 2025 Industry Track}}{}
+
+% \projHeading
+% {\textbf{Real-time Speech Summarization for Medical Conversations}}
+% {Oral presentation at Interspeech 2024 \& Poster presentation at \textit{MASC-SLL 2024}}{}
+% % \projHeading
+% % {\textbf{Like a bilingual baby: The advantage of visually grounding a bilingual language model}}
+% % {Poster presentation at \textit{Susquehanna Valley Undergraduate Research Symposium 2022}}{}
+% }
+% \vspace{-20pt}
+% \hrule
+% \vspace{+5pt}
+
+% % -------------------- AWARDS & HONORS --------------------
+% \sectionBlock{
+% \section{Awards\\and\\Honors}
+% }{
+% \awardListStart
+% \justifying
+% \item \emph{Recipient}, Computer Science Fellowship, College of William and Mary \hfill 2023\newline
+% \textit{Awarded \$500 by the CSCI admissions committee}
+% \item \emph{Recipient}, Bucknell University Grant \hfill 2019 - 2023\newline
+% \textit{Awarded approximately \$60,000 annually}
+% \item \emph{Dean's List}, Bucknell University \hfill
+% 2019 - 2023\newline
+% \textit{Achieved a GPA of 3.6 or higher every semester}
+% \item \emph{Recipient}, Program for Undergraduate Research Grant, Bucknell University \hfill 2021\newline
+% \textit{Awarded \$4,000 for summer research}
+% \item \emph{Honorable Mention}, Mathematical Contest in Modeling \hfill 2020\newline
+% \textit{Ranked top 25\% among 13753 participating teams}
+% \awardListEnd
+% }
+% \vspace{-15pt}
+% \hrule
+% \vspace{+10pt}
+
+% % -------------------- OTHERS --------------------
+% \sectionBlock{
+% \section{Teaching Experiences}
+% }{
+% \skillListStart
+% \justifying
+% \item \emph{William and Mary}: CSCI 140: {Intro to Data Science}
+% \item \phantom{\emph{William and Mary}:} CSCI 304: Computer Organization
+% \item \phantom{\emph{William and Mary}:} CSCI 435/535: Software Engineering
+% \item \emph{Bucknell University}: CSCI 204: Data Structures and Algorithms
+% \item \phantom{\emph{Bucknell University}:} MATH 201, 202: Calculus I, II
+% \skillListEnd
+% }
+
+% \vspace{-15pt}
+% \hrule
+% \vspace{+10pt}
+
+% % -------------------- OTHERS --------------------
+% \sectionBlock{
+% \section{Mentorship}
+% }{
+% \awardListStart
+% \justifying
+% \item \href{https://www.linkedin.com/in/an-x-ngo/}{\textcolor{RoyalBlue}{\textbf{An Ngo}}}: Bucknell University \hfill 2025.01 - 2025.09
+% \item \href{https://www.linkedin.com/in/linh-nguyen-52123021a/}{\textcolor{RoyalBlue}{\textbf{Linh Nguyen}}}: Bucknell University $\rightarrow$ SDE@Amazon \hfill 2024.09 - 2025.01
+% \item \href{https://www.linkedin.com/in/duy-le-dev/}{\textcolor{RoyalBlue}{\textbf{Duy Le}}}: Bucknell University\hfill 2024.05 - 2024.08
+% \item \href{https://www.linkedin.com/in/hungtienngo/}{\textcolor{RoyalBlue}{\textbf{Hung Ngo}}}: Bucknell University $\rightarrow$ R\&D Engineer@Medivis \hfill 2023.05 - 2023.09
+
+% \awardListEnd
+% }
+
+% \vspace{-15pt}
+% \hrule
+% \vspace{+5pt}
+
+
+% % -------------------- SERVICES --------------------
+
+
+% % -------------------- SERVICES --------------------
+
+% \sectionBlock{
+% \section{Services}
+% }{
+% \internHeading
+%   {Bucknell’s Machine Learning Association}{Co-founder and Secretary}{2022 - 2023}
+%   \itemListStart
+%     \myItem{Connected machine learning enthusiasts at Bucknell by inviting guest speakers from both industry and academia and organizing a machine learning-themed hackathon}
+%     \itemListEnd
+% \internHeading
+%   {Vietnamese Student Association at Bucknell}{Vice President of Finance}{2021 – 2022}
+% \itemListStart
+%   \myItem{Organized traditional Vietnamese events such as Mid-Autumn Festival and Lunar New Year Festival, managed the club budget for said events}
+% \itemListEnd
+% }
+% \vspace{-15pt}
+% \hrule
+% \vspace{+5pt}
+
+% -------------------- SKILLS --------------------
+% \sectionBlock{
+% \section{Selected Skills}
+% }{
+% \skillListStart
+% \justifying
+% \item \emph{Programming Languages}: Python, Java, C/C++, R, SQL
+% \item \emph{Libraries and Frameworks}: PyTorch, TensorFlow, Pandas, HuggingFace, vLLM, nnsight, TransformerLens, SentenceTransformers, DSPy, Matplotlib, Seaborn, GurobiPy
+
+% \skillListEnd
+% }
+
+
+
+\end{document}
+
