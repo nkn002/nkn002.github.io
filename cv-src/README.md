@@ -1,20 +1,16 @@
 # CV LaTeX source
 
-The academic CV, built with XeLaTeX on the [yuan-resume](https://github.com/xyz-yuanhf/yuan-resume) template (fonts bundled in `Fonts/`).
-
-- `main.tex` — current CV
-- `myresume.sty` — style (section layout, fonts, spacing)
-- `old.tex`, `v2.tex` — previous iterations, kept for reference
+`main.tex` is the academic CV: a self-contained XeLaTeX `article` document (no custom class, style file, or bundled fonts). It uses Latin Modern, loaded by filename so it compiles identically on macOS TinyTeX, Linux TeX Live, and Overleaf.
 
 ## Build
 
 ```bash
-./build.sh          # -> main.pdf
-./build.sh deploy   # also copies to ../files/ under the name cv.md embeds
+./build.sh          # -> cv-src/main.pdf
+./build.sh deploy   # also copies it to ../files/<CV_NAME> for the website
 ```
 
-The website serves the PDF from `files/` and embeds it in `_pages/cv.md`. If you change the deployed filename, update `CV_NAME` in `build.sh` **and** the iframe in `_pages/cv.md`.
+The website serves the PDF from `files/` and embeds it in `_pages/cv.md`. If you change `CV_NAME` in `build.sh`, update the iframe in `_pages/cv.md` too.
 
-Build artifacts (`*.aux`, `*.log`, `*.out`, `main.pdf`) are gitignored — only the deployed copy in `files/` is committed.
+Publications are cross-referenced by label (`\ref{pub:...}`) from the Research Interests and Experience sections, so the numbers `[C1]`… stay correct when entries are reordered. Compile twice (build.sh does) so refs resolve.
 
-Note: `fontawesome` is commented out in `main.tex` (unused, and missing from the local TinyTeX). Uncomment if compiling on Overleaf and you want the icons back.
+Build artifacts (`*.aux`, `*.log`, `*.out`, `*.pdf`) are gitignored; only the deployed copy in `files/` is committed.
