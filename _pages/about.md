@@ -5,7 +5,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD student at the University of Virginia advised by [Chirag Agarwal](https://chirag-agarwall.github.io/). Previously, I was a PhD student at the College of William and Mary advised by [Antonio Mastropaolo](https://antoniomastropaolo.com). I am also fortunated to be mentored by [Anh Totti Nguyen](https://anhnguyen.me/research/), [Truong-Son Hy](https://hytruongson.github.io/HySonLab/), and [Thiago Serra](https://tippie.uiowa.edu/people/thiago-serra). 
+I am a PhD student at the University of Virginia advised by [Chirag Agarwal](https://chirag-agarwall.github.io/). Previously, I was a research assistant at the College of William and Mary advised by [Antonio Mastropaolo](https://antoniomastropaolo.com). I am also fortunate to be mentored by [Anh Totti Nguyen](https://anhnguyen.me/research/), [Truong-Son Hy](https://hytruongson.github.io/HySonLab/), and [Thiago Serra](https://tippie.uiowa.edu/people/thiago-serra). 
 
 I am interested in **multimodal AI** and **AI safety**: (1) evaluating and understanding LLMs/MLLMs and (2) making AI systems more robust and interpretable in high-stakes applications.
 
@@ -16,11 +16,13 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
 <div class="highlights-banner">
   <div class="highlights-title">Recent Highlights 🔥</div>
   <ul class="highlights-list">
+   <li><strong> Deep and Shallow Biases in Language Models</strong> accepted at EMNLP 2026! Check out our <a href="https://deepbias.github.io/">project website</a>.</li>
+
    <li><strong> Pattern2Code</strong> accepted at ASE 2026! Check out our <a href="https://pattern2code.github.io/">project website</a>.</li>
 
    <li><strong> VLMsAreBiased</strong> featured on Sky News' <a href="https://www.youtube.com/watch?v=BkRrO_4OCCc">latest piece on AI risks in warfare</a>!</li>
 
-   <li><strong> VLMsAreBiased</strong> used by <a href="https://blog.google/technology/developers/gemini-3-pro-vision/">Google DeepMind</a> and <a href="https://seed.bytedance.com/en/seed1_8/">ByteDance</a>!</li>
+   <li><strong> VLMsAreBiased</strong> used to evaluate <a href="https://qwen.ai/blog?id=qwen3.8">Qwen3.8-Max</a>, <a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-3-pro-vision/">Gemini 3 Pro</a> (Google DeepMind), and <a href="https://seed.bytedance.com/en/seed1_8/">Seed 1.8</a> (ByteDance)!</li>
   
   <li><strong>Two oral presentations</strong> at ACL 2025 (Industry Track) and Interspeech 2024.</li>
   </ul>
@@ -30,6 +32,24 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
 
 # Selected Publications
 *♠ denotes equal contribution*
+
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/deep-shallow-bias.png" alt="Deep and Shallow Biases in Language Models">
+  </div>
+  <div class="pub-content">
+    <div class="pub-venue"><span class="tag venue">EMNLP 2026</span></div>
+    <div class="pub-title">Deep and Shallow Biases in Language Models</div>
+    <div class="pub-authors">An Vo, Vy Tuong Dang, <strong>Khai-Nguyen Nguyen</strong>, Emilio Villa-Cueva, Thamar Solorio, Anh Totti Nguyen, Daeyoung Kim</div>
+    <details class="pub-summary">
+      <summary>Summary</summary>
+      <p>We separate LLM biases into <em>deep</em> biases that survive prompt reframing and <em>shallow</em> ones that do not. Across 4,442 opinion prompts and four models, only about a quarter of concentrated preferences persist under reframing, and these deep biases resist both fine-tuning and prompt-based debiasing.</p>
+    </details>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2609.09901">paper</a> / <a href="https://deepbias.github.io/">website</a>
+    </div>
+  </div>
+</div>
 
 <div class="pub-item featured">
   <div class="pub-image">
@@ -80,7 +100,7 @@ I was a Machine Learning Research Intern at [CodaMetrix](https://www.codametrix.
       <p>We present FeatureSHAP, an interpretability framework for software engineering tasks that attributes Shapley scores to input features based on their contributions to model output.</p>
     </details>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2512.20328">paper</a> / <a href="https://github.com/deviserlab/FeatureSHAP">code</a>
+      <a href="https://arxiv.org/abs/2512.20328">paper</a> / <a href="https://doi.org/10.1145/3837084">journal</a> / <a href="https://github.com/deviserlab/FeatureSHAP">code</a>
     </div>
   </div>
 </div>

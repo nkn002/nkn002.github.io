@@ -7,7 +7,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-CV_NAME="KhaiNguyen_AcademicCV_2025.pdf"   # filename served at /files/ and embedded by _pages/cv.md
+CV_NAME="KhaiNguyen_AcademicCV_2026.pdf"   # filename served at /files/ and embedded by _pages/cv.md
 
 xelatex -interaction=nonstopmode -halt-on-error main.tex
 xelatex -interaction=nonstopmode -halt-on-error main.tex  # second pass for refs
