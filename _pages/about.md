@@ -5,7 +5,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD student at the University of Virginia advised by [Chirag Agarwal](https://chirag-agarwall.github.io/). Previously, I was a research assistant at the College of William and Mary advised by [Antonio Mastropaolo](https://antoniomastropaolo.com). I am also fortunate to be mentored by [Anh Totti Nguyen](https://anhnguyen.me/research/), [Truong-Son Hy](https://hytruongson.github.io/HySonLab/), and [Thiago Serra](https://tippie.uiowa.edu/people/thiago-serra). 
+I am a PhD student at the University of Virginia advised by [Chirag Agarwal](https://chirag-agarwall.github.io/). Previously, I was a master's student at the College of William and Mary advised by [Antonio Mastropaolo](https://antoniomastropaolo.com). I am also fortunate to be mentored by [Anh Totti Nguyen](https://anhnguyen.me/research/), [Truong-Son Hy](https://hytruongson.github.io/HySonLab/), and [Thiago Serra](https://tippie.uiowa.edu/people/thiago-serra). 
 
 I am interested in **multimodal AI** and **AI safety**: (1) evaluating and understanding LLMs/MLLMs and (2) making AI systems more robust and interpretable in high-stakes applications.
 
